@@ -1,0 +1,255 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&family=Roboto+Slab&display=swap');
+
+/* ---------Headings */
+h1,h2,h3,h4,h5,h6{
+    text-transform: uppercase;
+    font-family: 'Roboto Slab', serif;
+    font-weight: 400;
+}
+
+h2{
+    font-family: 'Roboto Slab', serif;
+    font-weight: 400;
+    color: #419092;
+}
+
+p{
+    font-family: 'Open Sans', Verdana, sans-serif;
+}
+
+.block-divider-blue {
+    width: 75px;
+    height: 5px;
+    border: 0;
+    background-color: #419092;
+}
+/* ---------Footer */
+footer{
+    margin: 0;
+    padding: 10px;
+    height: 120px;
+    background-color: #e9b02f;
+    color: black;
+}
+
+.footer-nav-item{
+    padding: 0;
+    font-family: 'Open Sans', Verdana, sans-serif;
+}
+
+.footer-nav-item a{
+    color: #419092;
+    text-decoration: none;
+}
+.footer-nav-item a:hover{
+    color:#419092;
+    text-decoration: none;
+}
+
+#footer-logo{
+    height: 100px;
+    width: 100px;
+    position: relative; 
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+.social-links{
+    margin-bottom: 0px;
+}
+
+.social-links-item a{
+    color: black;
+}
+.social-links-item a:hover{
+    color:#fafafa;
+}
+
+.footer-sub{
+    margin-bottom: 0px;
+}
+
+/* ---------Choose Me */
+#circle-container {
+    width: 250px;
+    height: 250px;
+    padding: 10px;
+    border-style: solid;
+    border-color: #e9b02f;
+    border-width: 3px;
+    border-radius: 50%;
+    margin: 0 auto;
+}
+
+#circle-cover-bg {
+    background: url('../images/headshotsquare.jpeg') no-repeat center center;
+    height: 100%;
+    border-radius: 50%;
+}
+
+/* ---------Hero Container */
+
+#hero-container{
+    background: url("/assets/images/pattern-bg.jpg") no-repeat center center;
+    background-attachment: fixed;
+    height: 50vh;
+    min-width: 300px;
+}
+
+/* ---------Typing  
+Here: https://css-tricks.com/snippets/css/typewriter-effect/*/
+
+.typewriter h2 {
+    text-transform: none;
+    overflow: hidden; /* Ensures the content is not revealed until the animation */
+    border-right: .15em solid #419092; /* The typwriter cursor */
+    white-space: nowrap; /* Keeps the content on a single line */
+    margin: 0 auto; /* Gives that scrolling effect as the typing happens */
+    letter-spacing: .15em; /* Adjust as needed */
+    font-size: 3vw;
+    animation: 
+      typing 3.5s steps(50, end),
+      blink-caret .75s step-end infinite;
+  }
+  
+  /* The typing effect */
+  @keyframes typing {
+    from { width: 0 }
+    to { width: 100% }
+  }
+
+  @keyframes blink-caret {
+    from, to { border-color: transparent }
+    50% { border-color: #419092; }
+  }
+  
+/* ---------Nav Bar  */
+  .navbar {
+    margin-bottom: -150px;
+    width: 100%;
+    border: 0;
+    background-color: transparent;
+    padding: 0px 10px;
+    height: 150px;
+}
+
+.navbar .navbar-toggler {
+    border: 0;
+}
+
+.navbar .navbar-brand {
+    font-weight: bold;
+}
+
+.navbar .navbar-nav a {
+    font-weight: bold;
+}
+
+.navbar-brand img{
+    height: 100px;
+}
+
+.cta-nav{
+    margin-left: auto;
+}
+
+/* ---------Buttons  */
+.btn--yellow {
+    color: white;
+    background-color: #e9b02f;
+    border-color: #e9b02f;
+}
+
+.btn--yellow:hover,
+.btn--yellow:active,
+.btn--yellow:focus,
+.btn--yellow:active:focus {
+    background-color: #fff;
+    border-color: #e9b02f;
+    color: white;
+}
+
+.btn--yellow-line {
+    background-color: #fff;
+    border-color: #e9b02f;
+    color: #e9b02f;
+}
+
+.btn--yellow:hover,
+.btn--yellow:active,
+.btn--yellow:focus,
+.btn--yellow:active:focus {
+    color: white;
+    background-color: #e9b02f;
+    border-color: #e9b02f;}
+
+/* ---------Services  */
+
+.services-item-yellow{
+    background-color: #e9b02f;}
+
+.services-item-pink{
+    background-color: #c05b6b;}
+
+.services-item-blue{
+    background-color:  #419092;}
+
+.services-item a{
+    color: #fff;
+    text-decoration: none;}
+
+.services h1{
+    color:#fff;
+}
+
+.services{
+        background: url("/assets/images/pattern-bg.jpg") no-repeat center center;
+        background-attachment: fixed;
+}
+
+/* ---------Form  */
+
+.contact {
+    clear: left;
+    background: url("../images/shapes-bg.jpg");
+    background-size: cover;
+    background-position: right;
+}
+
+.signup-form{
+    margin: 30px;
+    color: #fff;
+    background-color: rgba(0, 0, 0, 0.8);
+    padding: 30px;
+    border-radius: 5px;
+}
+
+.signup-form h2{
+    color: #fafafa;
+    margin-bottom: 20px;
+}
+
+.text-input{
+    background: transparent;
+    color: #fafafa;
+    width: 100%;
+    height: 25px;
+    margin: 5px 0 20px 0;
+    border: 1px solid #fafafa;
+    border-radius: 2px;
+}
+
+.text-input:hover{
+    border-color: #e9b02f;
+}
+
+/* ---------Quotes  */
+
+.blockquote{
+    font-size:small;
+}
+
+.quotes-container{
+    background-color: rgba(255, 255, 255, 0.9);
+    border-radius: 5px;
+}
