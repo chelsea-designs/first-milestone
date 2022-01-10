@@ -256,28 +256,34 @@ Here: https://css-tricks.com/snippets/css/typewriter-effect/*/
     border-radius: 5px;
 }
 
-/* ---------Gallery  */
+/* ---------Photos */
+#photos-section{
+    background: #000;
+}
 
-#gallery {
+#photos-section h2{
+    color: #fff;
+} 
+
+#photos {
     display: grid;
     gap: 0.5em;
     grid-template-columns: repeat(auto-fit, minmax(10em, 1fr));
     grid-auto-flow: dense;
   }
   
-#gallery div {
+#photos div {
     border-radius: 10px;
     background-size: cover;
     background-position: center;
     padding-top: 100%;
-    background-image: url('https://picsum.photos/500/500');
-  }
-
-  #gallery div:1st-child {
-    background-image: url('https://picsum.photos/500/500');
   }
   
-#gallery div:nth-child(6n) {
+#photos div:nth-child(4n) {
     grid-column: span 2;
     grid-row: span 2;
   }
+
+  #web-portfolio h2{
+    color: #000;
+} 
