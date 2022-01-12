@@ -287,3 +287,14 @@ Here: https://css-tricks.com/snippets/css/typewriter-effect/*/
   #web-portfolio h2{
     color: #000;
 } 
+
+.service-info{
+    border-radius: 5px;
+    border: solid 3px #e9b02f;
+    height: 35vh;
+}
+
+
+.service-info a {
+    text-decoration: none;
+}
