@@ -93,6 +93,7 @@ footer{
 
 #hero-container{
     background: url("/assets/images/pattern-bg.jpg") no-repeat center center;
+    background-color: #000;
     background-attachment: fixed;
     height: 50vh;
     min-width: 300px;
