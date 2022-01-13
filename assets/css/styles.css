@@ -245,6 +245,20 @@ Here: https://css-tricks.com/snippets/css/typewriter-effect/*/
     border-color: #e9b02f;
 }
 
+#your-message{
+    background: transparent;
+    color: #fafafa;
+    width: 100%;
+    margin: 5px 0 20px 0;
+    border: 1px solid #fafafa;
+    border-radius: 2px;
+}
+
+#your-message:hover{
+    border-color: #e9b02f;
+}
+
+
 /* ---------Quotes  */
 
 .blockquote{
