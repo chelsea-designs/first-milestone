@@ -80,7 +80,7 @@ footer{
 }
 
 #circle-cover-bg {
-    background: url('../images/headshotsquare.jpeg') no-repeat center center;
+    background: url('../images/headshot-square.jpeg') no-repeat center center;
     height: 100%;
     border-radius: 50%;
 }
@@ -90,7 +90,7 @@ footer{
 #hero-container{
     background: url('../images/pattern-bg.jpg') no-repeat center center;
     background-attachment: fixed;
-    height: 50vh;
+    height: 60vh;
     min-width: 300px;
 }
 
@@ -125,7 +125,6 @@ footer{
     margin-bottom: -150px;
     width: 100%;
     border: 0;
-    background-color: transparent;
     padding: 0px 10px;
     height: 150px;
     z-index: 1;
@@ -133,10 +132,6 @@ footer{
 
 .navbar .navbar-toggler {
     border: 0;
-}
-
-.navbar .navbar-brand {
-    font-weight: bold;
 }
 
 .navbar .navbar-nav a {
