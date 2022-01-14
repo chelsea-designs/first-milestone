@@ -1,10 +1,10 @@
-<h1 align="center">Code Institute Website</h1>
+<h1 align="center">Chelsea Designs Website</h1>
 
-[View the live project here.](https://codeinstitute.net)
+[View the live project here.](https://chelsea-designs.github.io/first-milestone/)
 
 This is the main marketing website for Chelsea Designs. It is designed to be responsive and accessible on a range of devices, making it easy to navigate for potential clients.
 
-<h2 align="center"><img src="https://i.ibb.co/TYvTXz1/Example-CI.png"></h2>
+<h2 align="center"><img src="assets/images/preview-web.png"></h2>
 
 ## User Experience (UX)
 
@@ -30,11 +30,11 @@ This is the main marketing website for Chelsea Designs. It is designed to be res
 
 -   ### Design
     -   #### Colour Scheme
-        -   The four main colours used are blue #419092, yellow #e9b02f, red #e24e42 and pink #c05b6b.
+        -   The four main colours used are <span style="color:#419092">blue #419092</span>, <span style="color:#e9b02f">yellow #e9b02f</span>, <span style="color:#e24e42">red #e24e42</span> and <span style="color:#c05b6b">pink #c05b6b</span>.
     -   #### Typography
         -   The Open Sans is the main font used throughout the whole website with Serif as the fallback font in case for any reason the font isn't being imported into the site correctly. Roboto Slab is used for headings as it pairs nicely with the Open Sans font.
     -   #### Imagery
-        -   Imagery is important. The large, background hero image is designed to be striking and catch the user's attention. It also has a modern, energetic aesthetic.
+        -   Imagery is important. The large, background hero image is designed to be striking and catch the user's attention. It also has a vibrant, geometric, energetic aesthetic. Imagery shouldn't be clinical/sterile as the target audience is small business and charities rather than big corporations.
 
 *   ### Wireframes
 
@@ -46,9 +46,30 @@ This is the main marketing website for Chelsea Designs. It is designed to be res
 
 ## Features
 
--   Responsive on all device sizes
+### Existing Features
 
--   Interactive elements
+-   Responsive - on all device sizes
+
+-   Interactive elements - accordians, dropdown menus and contact forms.
+
+-   Back to top link - this helps to improve navigation and user experience.
+
+-   Social media links - provides links to social media platforms to help establish trust with the user.
+
+-   Navigation - Navbar with drop down and collapsible to improve user experience through easy navigation on various devices.
+
+-   Client testimonials - to display previous client feedback and establish trust with users.
+
+
+### Future Features
+
+-   Tweak logo portfolio to have a tidier end regardless of how many images are included in the portfolio, I would do this using Javascript. This would mean I could continue to add more logos and maintain a clear and tidy appearance to the portfolio. 
+
+-   In the future each of the services would link to their own seperate page for more in depth details of what each service includes. This was beyond the scope of this first project.
+
+-   Testimonial replaced with testimonials carousel to display more than one client quote without taking too much display space.
+
+-   Make the form functional after completing the relevant modules on the Full Stack Developer Course.
 
 ## Technologies Used
 
@@ -59,31 +80,54 @@ This is the main marketing website for Chelsea Designs. It is designed to be res
 
 ### Frameworks, Libraries & Programs Used
 
-1. [Bootstrap 4.4.1:](https://getbootstrap.com/docs/4.4/getting-started/introduction/)
+1. [Bootstrap 5.1.3:](https://getbootstrap.com/docs/5.1/getting-started/introduction/)
     - Bootstrap was used to assist with the responsiveness and styling of the website.
 1. [Hover.css:](https://ianlunn.github.io/Hover/)
     - Hover.css was used on the Social Media icons in the footer to add the float transition while being hovered over.
 1. [Google Fonts:](https://fonts.google.com/)
-    - Google fonts were used to import the 'Titillium Web' font into the style.css file which is used on all pages throughout the project.
+    - Google fonts were used to import the 'Open Sans' and 'Roboto Slab' fonts into the style.css file which is used on all pages throughout the project.
 1. [Font Awesome:](https://fontawesome.com/)
     - Font Awesome was used on all pages throughout the website to add icons for aesthetic and UX purposes.
-1. [jQuery:](https://jquery.com/)
-    - jQuery came with Bootstrap to make the navbar responsive but was also used for the smooth scroll function in JavaScript.
 1. [Git](https://git-scm.com/)
     - Git was used for version control by utilizing the Gitpod terminal to commit to Git and Push to GitHub.
 1. [GitHub:](https://github.com/)
     - GitHub is used to store the projects code after being pushed from Git.
-1. [Photoshop:](https://www.adobe.com/ie/products/photoshop.html)
-    - Photoshop was used to create the logo, resizing images and editing photos for the website.
-1. [Balsamiq:](https://balsamiq.com/)
-    - Balsamiq was used to create the [wireframes](https://github.com/) during the design process.
+1. [Affinity Photo:](https://affinity.serif.com/en-gb/photo/#buy)
+    - Affinity Photo was used to create the logo, background imagery, resizing images and editing photos for the website.
+1. [Google Dev Tools:](https://developers.google.com/web/tools)
+    - Google Chrome Dev Tools was used to inspect the code throughout the design process at different device sizes (in responsive mode).
 
 ## Testing
 
-The W3C Markup Validator and W3C CSS Validator Services were used to validate every page of the project to ensure there were no syntax errors in the project.
+### Manual Testing
+In order to test navigation I verified the following:
+    - Does the contact button link to the contact page? 
+    - Does the menu collapse on smaller devices?
+    - Does each link on the navbar point to the correct page?
+    - Does the dropdown menu open and link to the correct pages?
+    - Does the 'Back to top' link scroll to the top on every page?
+    - Do all buttons link to their correct locations?
+
+In order to test the form I verified the following:
+    - Does the completed form display the Code Institute form dump?
+    - Do all form inputs display on the Code Institute form dump?
+    - Is the user prompted to complete fields with missing inputs?
+
+In order to test the external social links I verified the following:
+    - Do the social icons change colour on hover?
+    - Do the social sites open in a new tab?
+    - Do the social icons link to the correct urls when opened?
+
+
+
+### Final Testing
+
+The W3C Markup Validator and W3C CSS Validator Services were used to validate every page of the project to ensure there were no syntax errors in the project. PowerMapper was used to double check browser compatibility. Google Lighthouse function used to test performance, accessibility and best practices.
 
 -   [W3C Markup Validator](https://jigsaw.w3.org/css-validator/#validate_by_input) - [Results](https://github.com/)
 -   [W3C CSS Validator](https://jigsaw.w3.org/css-validator/#validate_by_input) - [Results](https://github.com/)
+-   [PowerMapper](https://www.powermapper.com/) - [Results](https://github.com/)
+-   [Lighthouse](https://developers.google.com/web/tools/lighthouse) - [Results](https://github.com/)
 
 ### Testing User Stories from User Experience (UX) Section
 
@@ -150,9 +194,8 @@ The W3C Markup Validator and W3C CSS Validator Services were used to validate ev
 
 ### Known Bugs
 
--   On some mobile devices the Hero Image pushes the size of screen out more than any of the other content on the page.
-    -   A white gap can be seen to the right of the footer and navigation bar as a result.
--   On Microsoft Edge and Internet Explorer Browsers, all links in Navbar are pushed upwards when hovering over them.
+-   On some mobile devices the Headshot Image does not appear centered.
+-   The logo portfolio would look better if the bottom row was full and all images aligned at the bottom, this section could be improved with the use of Javascript.
 
 ## Deployment
 
@@ -206,24 +249,28 @@ Click [Here](https://help.github.com/en/github/creating-cloning-and-archiving-re
 
 ### Code
 
--   The full-screen hero image code came from this [StackOverflow post](https://stackoverflow.com)
+-   [Bootstrap4](https://getbootstrap.com/docs/5.1/getting-started/introduction/): Bootstrap Library used throughout the project mainly to make site responsive using the Bootstrap Grid System. Also, code was used from the Bootstrap Components Library for dropdown menu, buttons and accordians etc.
 
--   [Bootstrap4](https://getbootstrap.com/docs/4.4/getting-started/introduction/): Bootstrap Library used throughout the project mainly to make site responsive using the Bootstrap Grid System.
+-   The typewriting effect code came from this website [CSS-Tricks](https://css-tricks.com/snippets/css/typewriter-effect/). I tweaked the code to suit my design aesthetic.
 
--   [MDN Web Docs](https://developer.mozilla.org/) : For Pattern Validation code. Code was modified to better fit my needs and to match an Irish phone number layout to ensure correct validation. Tutorial Found [Here](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/input/tel#Pattern_validation)
+-   The code used to create the logo portfolio came from [this post](https://medium.com/swlh/3-easy-css-only-masonry-layouts-acfb64364ad6). It was tweaked to use only square images, and to use my own imagery.
+
+-   [MDN Web Docs](https://developer.mozilla.org/) : For Pattern Validation code. Code was modified to better fit my needs and to match an Irish phone number layout to ensure correct validation. Tutorial found [here](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/input/tel#Pattern_validation)
 
 ### Content
 
--   All content was written by the developer.
-
--   Psychological properties of colours text in the README.md was found [here](http://www.colour-affects.co.uk/psychological-properties-of-colours)
+-   All content was written by myself.
 
 ### Media
 
--   All Images were created by the developer.
+-   Images displaying website design across devices generated by [AmIResponsive](http://ami.responsivedesign.is/)
+
+-   All images were created by myself.
 
 ### Acknowledgements
 
--   My Mentor for continuous helpful feedback.
+-   My mentor for helpful feedback.
 
 -   Tutor support at Code Institute for their support.
+
+-   My peers for their support through Stack.

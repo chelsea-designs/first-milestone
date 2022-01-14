@@ -13,7 +13,7 @@
     <header>
         <nav class="navbar navbar-dark navbar-expand-sm">
             <div class="container-fluid">
-                <a href="/" class="navbar-brand d-none d-sm-block"><img src="assets/images/logo.png"></a>
+                <a href="/" class="navbar-brand d-none d-sm-block"><img src="assets/images/logo.png" alt="Chelsea Designs Logo"></a>
                 <button class="navbar-toggler ml-auto" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
                     <span class="navbar-toggler-icon"></span>
                 </button>
@@ -35,9 +35,9 @@
                         <li class="nav-item mr-2 d-block d-md-none"><a class="nav-link" href="contact.html">Contact <i class="fa fa-envelope" aria-hidden="true"></i></a></li>
                     </ul>
                     <ul class="navbar-nav cta-nav">
-                        <li class="nav-item nav-cta d-none d-md-block">
-                            <p class="navbar-text my-auto mr-2"><strong></strong>Lets talk about your project!</strong></p>
-                            <a href="contact.html" class="btn btn--yellow">Contact <i class="fa fa-envelope" aria-hidden="true"></i></a>
+                        <li class="active nav-item nav-cta d-none d-md-block">
+                            <p class="navbar-text my-auto mr-2">Lets talk about your project!</p>
+                            <a href="contact.html" class="btn btn--blue">Contact <i class="fa fa-envelope" aria-hidden="true"></i></a>
                         </li>
                     </ul>
                 </div>
@@ -71,35 +71,35 @@
             <div class="col-12 col-md-6 col-lg-4 p-3">
                 <div class="service-info p-3">
                     <h3>Logo & Graphics Design</h3>
-                    <p class="lead">I can build a custom website to help your business or charity to soar.</p>
+                    <p class="lead">I can build a brand for your business with a bespoke logo or graphics design.</p>
                     <a href="#contact-services"><p class="text-muted">Prices start from £100 <i class="fa fa-arrow-circle-right" aria-hidden="true"></i></p></a>
                 </div>
             </div>
             <div class="col-12 col-md-6 col-lg-4 p-3">
                 <div class="service-info p-3">
                     <h3>Print Design</h3>
-                    <p class="lead">I can build a custom website to help your business or charity to soar.</p>
+                    <p class="lead">I can design effective and professional looking print such as business cards, flyers, posters and letterheads.</p>
                     <a href="#contact-services"><p class="text-muted">Prices start from £100 <i class="fa fa-arrow-circle-right" aria-hidden="true"></i></p></a>
                 </div>
             </div>
             <div class="col-12 col-md-6 col-lg-4 p-3">
                 <div class="service-info p-3">
                     <h3>Email Marketing</h3>
-                    <p class="lead">I can build a custom website to help your business or charity to soar.</p>
+                    <p class="lead">I can increase customer engagment with a bespoke email marketing campaign.</p>
                     <a href="#contact-services"><p class="text-muted">Prices start from £100 <i class="fa fa-arrow-circle-right" aria-hidden="true"></i></p></a>
                 </div>
             </div>
             <div class="col-12 col-md-6 col-lg-4 p-3">
                 <div class="service-info p-3">
                     <h3>Social Media Marketing</h3>
-                    <p class="lead">I can build a custom website to help your business or charity to soar.</p>
+                    <p class="lead">I can increase brand awareness with a bespoke social media marketing campaign.</p>
                     <a href="#contact-services"><p class="text-muted">Prices start from £100 <i class="fa fa-arrow-circle-right" aria-hidden="true"></i></p></a>
                 </div>
             </div>
             <div class="col-12 col-md-6 col-lg-4 p-3">
                 <div class="service-info p-3">
                     <h3>Business Consultancy</h3>
-                    <p class="lead">I can build a custom website to help your business or charity to soar.</p>
+                    <p class="lead">I can ellevate your business with my expert business consultancy service.</p>
                     <a href="#contact-services"><p class="text-muted">Prices start from £100 <i class="fa fa-arrow-circle-right" aria-hidden="true"></i></p></a>
                 </div>
             </div>
@@ -111,27 +111,31 @@
                 <div class="col-12 col-xl-9">
                     <form class="signup-form" method="POST" action="https://formdump.codeinstitute.net/">
                         <h2>I'd love to hear about your project!<i class="fas fa-heartbeat"></i></h2>
-                        <label for="fname">First Name</label>
-                        <input class="text-input" id="fname" type="text" name="first_name" required>
-                        <label for="lname">Last Name</label>
-                        <input class="text-input" id="lname" type="text" name="last_name" required>
-                        <label for="email">Email Address</label>
-                        <input class="text-input" id="email" type="email" name="email_address" required>
-                        <label for="your-message">Your Message</label>
-                        <textarea id="your-message" name="message" rows="3" cols="50" required></textarea>
-                        <h6>Where did you hear about us?</h6>
-                        <label for="google">Google</label>
-                        <input id="google" type="radio" name="source_location" value="google" required>
-                        <label for="personal-rec">Personal Recommendation</label>
-                        <input id="personal-rec" type="radio" name="source_location" value="personal-rec">
-                        <label for="social">Social Media</label>
-                        <input id="social" type="radio" name="source_location" value="social">
-                        <label for="other">Other</label>
-                        <input id="other" type="radio" name="source_location" value="other">
-                        <input class="btn btn--yellow" type="submit" value="Let's Create!">
+                        <fieldset>
+                            <label for="fname">First Name</label>
+                            <input class="text-input" id="fname" type="text" name="first_name" required>
+                            <label for="lname">Last Name</label>
+                            <input class="text-input" id="lname" type="text" name="last_name" required>
+                            <label for="email">Email Address</label>
+                            <input class="text-input" id="email" type="email" name="email_address" required>
+                            <label for="your-message">Your Message</label>
+                            <textarea id="your-message" name="message" rows="3" cols="50" required></textarea>
+                        </fieldset>
+                        <h3 class="small">Where did you hear about us?</h3>
+                        <fieldset>
+                            <label for="google">Google</label>
+                            <input id="google" type="radio" name="source_location" value="google" required>
+                            <label for="personal-rec">Personal Recommendation</label>
+                            <input id="personal-rec" type="radio" name="source_location" value="personal-rec">
+                            <label for="social">Social Media</label>
+                            <input id="social" type="radio" name="source_location" value="social">
+                            <label for="other">Other</label>
+                            <input id="other" type="radio" name="source_location" value="other">
+                            <input class="btn btn--blue" type="submit" value="Let's Create!">
+                        </fieldset>
                     </form>
                 </div>
-                <div class="quotes-container col-12 col-xl-3 my-auto">
+                <div class="quotes-container col-12 col-xl-3 mb-auto mt-5">
                     <h4>What our clients say about us</h4> 
                     <blockquote class="blockquote text-muted">Chelsea Designs was so responsive and really took on board our vision for the website. She created exactly what we were looking for, was very prompt and was really open to any changes we wanted to make afterwards. I would definitely recommend to anyone looking for a great value high quality website.</blockquote>
                     <blockquote class="blockquote-footer">Bethan Taylor</blockquote>
@@ -142,7 +146,7 @@
     <footer>
         <div class="row">
             <div class="col-md-2 d-none d-md-block mx-auto">
-                <img id= "footer-logo" src="assets/images/logo.png" alt="logo">
+                <a href="#"><img id= "footer-logo" src="assets/images/logo.png" alt="Chelsea Designs Logo"></a>
             </div>
             <div class="col-8 col-md-7">
                     <h4>Chelsea Designs</h4>
@@ -150,7 +154,7 @@
                     <nav>
                         <ul class="list-inline footer-nav">
                             <li class="list-inline-item footer-nav-item">
-                                <a href="#hero-container"><i class="fa fa-arrow-up" aria-hidden="true"></i>Back to top of page</a>
+                                <a href="#hero-container"><i class="fa fa-arrow-up" aria-hidden="true"></i> Back to top of page</a>
                             </li>
 
                         </ul>
@@ -159,40 +163,40 @@
             <div class="col-4 col-md-3">
                 <div class="row">
                     <div class="col-12">
-                        <h6 class="footer-sub">Social</h6>
+                        <h5 class="footer-sub small">Social</h6>
                         <ul class="list-inline social-links">
                             <li class="list-inline-item social-links-item">
-                                <a target="_blank" href="#">
+                                <a target="_blank" href="http://facebook.com/chelseadesignsofficial">
                                     <i class="fab fa-facebook" aria-hidden="true"></i>
                                     <span class="sr-only">Facebook</span>
                                 </a>
                             </li>
                             <li class="list-inline-item social-links-item">
-                                <a target="_blank" href="#">
+                                <a target="_blank" href="http://twitter.com/chelseadesigns_">
                                     <i class="fab fa-twitter" aria-hidden="true"></i>
                                     <span class="sr-only">Twitter</span>
                                 </a>
                             </li>
                             <li class="list-inline-item social-links-item">
-                                <a target="_blank" href="#">
+                                <a target="_blank" href="https://www.linkedin.com/company/chelsea-designs/">
                                     <i class="fab fa-linkedin" aria-hidden="true"></i>
                                     <span class="sr-only">LinkedIn</span>
                                 </a>
                             </li>
                             <li class="list-inline-item social-links-item">
-                                <a target="_blank" href="#">
+                                <a target="_blank" href="https://www.pinterest.co.uk/">
                                     <i class="fab fa-pinterest" aria-hidden="true"></i>
                                     <span class="sr-only">Pinterest</span>
                                 </a>
                             </li>
                             <li class="list-inline-item social-links-item">
-                                <a target="_blank" href="#">
+                                <a target="_blank" href="https://www.instagram.com/chelsea.designs_/">
                                     <i class="fab fa-instagram" aria-hidden="true"></i>
                                     <span class="sr-only">Instagram</span>
                                 </a>
                             </li>
                             <li class="list-inline-item social-links-item">
-                                <a target="_blank" href="#">
+                                <a target="_blank" href="https://www.youtube.com/">
                                     <i class="fab fa-youtube" aria-hidden="true"></i>
                                     <span class="sr-only">YouTube</span>
                                 </a>
@@ -200,16 +204,16 @@
                         </ul>
                     </div>
                     <div class="col-12">
-                        <h6 class="footer-sub">Contact</h6>
+                        <h5 class="footer-sub small">Contact</h6>
                         <ul class="list-inline social-links">
                             <li class="list-inline-item social-links-item">
-                                <a target="_blank" href="#">
+                                <a target="_blank" href="mailto:hello@chelsea-designs.com">
                                     <i class="fa fa-envelope" aria-hidden="true"></i>
                                     <span class="sr-only">Email</span>
                                 </a>
                             </li>
                             <li class="list-inline-item social-links-item">
-                                <a target="_blank" href="#">
+                                <a target="_blank" href="tel:07070707070">
                                     <i class="fa fa-phone" aria-hidden="true"></i>
                                     <span class="sr-only">Phone</span>
                                 </a>

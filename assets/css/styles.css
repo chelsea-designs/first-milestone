@@ -7,16 +7,11 @@ h1,h2,h3,h4,h5,h6{
     font-weight: 400;
 }
 
-h2{
-    font-family: 'Roboto Slab', serif;
-    font-weight: 400;
-    color: #419092;
-}
-
 p{
     font-family: 'Open Sans', Verdana, sans-serif;
 }
 
+/* --------- Design Elements */
 .block-divider-blue {
     width: 75px;
     height: 5px;
@@ -25,6 +20,7 @@ p{
     margin: auto;
     margin-bottom: 15px;
 }
+
 /* ---------Footer */
 footer{
     margin: 0;
@@ -40,11 +36,11 @@ footer{
 }
 
 .footer-nav-item a{
-    color: #419092;
+    color: #000;
     text-decoration: none;
 }
 .footer-nav-item a:hover{
-    color:#419092;
+    background-color: #fff;
     text-decoration: none;
 }
 
@@ -98,32 +94,31 @@ footer{
     min-width: 300px;
 }
 
-/* ---------Typing  
-Here: https://css-tricks.com/snippets/css/typewriter-effect/*/
-
+/* ---------Typing */
+/* This section of code has been credited in the README.md */
 .typewriter h2 {
     text-transform: none;
-    overflow: hidden; /* Ensures the content is not revealed until the animation */
-    border-right: .15em solid #419092; /* The typwriter cursor */
-    white-space: nowrap; /* Keeps the content on a single line */
-    margin: 0 auto; /* Gives that scrolling effect as the typing happens */
-    letter-spacing: .15em; /* Adjust as needed */
+    overflow: hidden; 
+    border-right: .15em solid #419092;
+    white-space: nowrap; 
+    margin: 0 auto;
+    letter-spacing: .15em;
     font-size: 3vw;
     animation: 
       typing 3.5s steps(50, end),
       blink-caret .75s step-end infinite;
-  }
+    color:#419092;
+}
   
-  /* The typing effect */
-  @keyframes typing {
+@keyframes typing {
     from { width: 0 }
     to { width: 100% }
-  }
+}
 
-  @keyframes blink-caret {
+@keyframes blink-caret {
     from, to { border-color: transparent }
     50% { border-color: #419092; }
-  }
+}
   
 /* ---------Nav Bar  */
   .navbar {
@@ -133,6 +128,7 @@ Here: https://css-tricks.com/snippets/css/typewriter-effect/*/
     background-color: transparent;
     padding: 0px 10px;
     height: 150px;
+    z-index: 1;
 }
 
 .navbar .navbar-toggler {
@@ -156,34 +152,33 @@ Here: https://css-tricks.com/snippets/css/typewriter-effect/*/
 }
 
 /* ---------Buttons  */
-.btn--yellow {
+.btn--blue {
     color: white;
-    background-color: #e9b02f;
-    border-color: #e9b02f;
+    background-color: #419092;
 }
 
-.btn--yellow:hover,
-.btn--yellow:active,
-.btn--yellow:focus,
-.btn--yellow:active:focus {
+.btn--blue:hover,
+.btn--blue:active,
+.btn--blue:focus,
+.btn--blue:active:focus {
     background-color: #fff;
-    border-color: #e9b02f;
-    color: white;
+    border-color: #419092;
+    color: #419092;
 }
 
-.btn--yellow-line {
+.btn--blue-line {
     background-color: #fff;
-    border-color: #e9b02f;
-    color: #e9b02f;
+    border-color: #419092;
+    color: #419092;
 }
 
-.btn--yellow:hover,
-.btn--yellow:active,
-.btn--yellow:focus,
-.btn--yellow:active:focus {
+.btn--blue-line:hover,
+.btn--blue-line:active,
+.btn--blue-line:focus,
+.btn--blue-line:active:focus {
     color: white;
-    background-color: #e9b02f;
-    border-color: #e9b02f;}
+    background-color: #419092;
+}
 
 /* ---------Services  */
 
@@ -197,16 +192,20 @@ Here: https://css-tricks.com/snippets/css/typewriter-effect/*/
     background-color:  #419092;}
 
 .services-item a{
-    color: #fff;
+    color: #000;
     text-decoration: none;}
 
-.services h1{
+.services h2{
     color:#fff;
 }
 
 .services{
         background: url("../images/pattern-bg.jpg") no-repeat center center;
         background-attachment: fixed;
+}
+
+i.home-icons{
+    font-size: x-large;
 }
 
 /* ---------Form  */
@@ -258,7 +257,6 @@ Here: https://css-tricks.com/snippets/css/typewriter-effect/*/
     border-color: #e9b02f;
 }
 
-
 /* ---------Quotes  */
 
 .blockquote{
@@ -270,7 +268,9 @@ Here: https://css-tricks.com/snippets/css/typewriter-effect/*/
     border-radius: 5px;
 }
 
-/* ---------Photos */
+/* ---------Portfolio */
+/* This section of code has been credited in the README.md */
+
 #photos-section{
     background: #000;
 }
@@ -298,17 +298,32 @@ Here: https://css-tricks.com/snippets/css/typewriter-effect/*/
     grid-row: span 2;
   }
 
-  #web-portfolio h2{
+#photos div:nth-child(16n) {
+    grid-column: span 1;
+    grid-row: span 1;
+  }
+
+#photos div:nth-child(20n) {
+    grid-column: span 1;
+    grid-row: span 1;
+  }
+
+
+#web-portfolio h2{
     color: #000;
 } 
 
+/* --------- Services */
 .service-info{
     border-radius: 5px;
     border: solid 3px #e9b02f;
     height: 35vh;
 }
 
-
 .service-info a {
     text-decoration: none;
+}
+
+.service-info a i:hover{
+    color:black;
 }

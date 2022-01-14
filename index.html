@@ -13,14 +13,14 @@
     <header>
         <nav class="navbar navbar-dark navbar-expand-sm">
             <div class="container-fluid">
-                <a href="/" class="navbar-brand d-none d-sm-block"><img src="assets/images/logo.png"></a>
+                <a href="/" class="navbar-brand d-none d-sm-block"><img src="assets/images/logo.png" alt="Chelsea Designs Logo"></a>
                 <button class="navbar-toggler ml-auto" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
                     <span class="navbar-toggler-icon"></span>
                 </button>
 
                 <div class="collapse navbar-collapse" id="navbarNavDropdown">
                     <ul class="navbar-nav">
-                        <li class="nav-item mr-2"><a class="active nav-link" aria-current="page" href="/">Home</a></li>
+                        <li class="nav-item mr-2"><a class="nav-link" aria-current="page" href="/">Home</a></li>
                         <li class="nav-item mr-2"><a class="nav-link" href="portfolio.html">Portfolio</a></li>
                         <li class="nav-item dropdown"><a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button" data-bs-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Services</a>
                             <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
@@ -35,9 +35,9 @@
                         <li class="nav-item mr-2 d-block d-md-none"><a class="nav-link" href="contact.html">Contact <i class="fa fa-envelope" aria-hidden="true"></i></a></li>
                     </ul>
                     <ul class="navbar-nav cta-nav">
-                        <li class="nav-item nav-cta d-none d-md-block">
-                            <p class="navbar-text my-auto mr-2"><strong></strong>Lets talk about your project!</strong></p>
-                            <a href="contact.html" class="btn btn--yellow">Contact <i class="fa fa-envelope" aria-hidden="true"></i></a>
+                        <li class="active nav-item nav-cta d-none d-md-block">
+                            <p class="navbar-text my-auto mr-2">Lets talk about your project!</p>
+                            <a href="contact.html" class="btn btn--blue">Contact <i class="fa fa-envelope" aria-hidden="true"></i></a>
                         </li>
                     </ul>
                 </div>
@@ -61,57 +61,57 @@
         <div class="row container-fluid">
             <div class="col-6 col-lg-4 mx-auto">
                 <div id="circle-container">
-                    <div id="circle-cover-bg" alt-text="Headshot"></div>
+                    <div id="circle-cover-bg"></div>
                 </div>
             </div>
             <div class="col-sm-6 col-lg-8 my-auto">
                 <h2>Why choose me?</h2>
                 <p>Deciding which web designer to choose for your project can be tough as there are hundreds to choose from but not all are in budget and of excellent quality. I'm honest friendly, experienced and affordable and would love to chat with you about your project.</p>
-                <a href="portfolio.html" class="btn btn--yellow btn-lg">Portfolio</a>
-                <a href="contact.html" class="btn btn--yellow btn-lg">Contact</a>
+                <a href="portfolio.html" class="btn btn--blue btn-lg">Portfolio</a>
+                <a href="contact.html" class="btn btn--blue btn-lg">Contact</a>
             </div>
         </div>
     </section>
     <section class="services container-fluid">
         <div class="container p-5">
-            <h1 class="text-center">Our Services</h1>
+            <h2 class="text-center">Our Services</h2>
             <div class="block-divider-blue"></div>
             <div class="row">
                 <div class="services-item services-item-pink col-md-4 text-center py-5">
-                    <a target="" href="services.html">
-                        <i class="fa fa-tv" aria-hidden="true"></i>
+                    <a href="services.html">
+                        <i class="fa fa-tv home-icons" aria-hidden="true"></i>
                         <h3>Web Design</h3>
                     </a>
                 </div>
                 <div class="services-item services-item-blue col-md-4 text-center py-5">
-                    <a target="" href="services.html">
-                        <i class="fa fa-tv" aria-hidden="true"></i>
+                    <a href="services.html">
+                        <i class="fa fa-pencil-alt home-icons" aria-hidden="true"></i>
                         <h3>Logo & Graphics Design</h3>
                     </a>
                 </div>
                 <div class="services-item services-item-yellow col-md-4 text-center py-5">
-                    <a target="" href="services.html">
-                        <i class="fa fa-tv" aria-hidden="true"></i>
+                    <a href="services.html">
+                        <i class="fa fa-print home-icons" aria-hidden="true"></i>
                         <h3>Print Design</h3>
                     </a>
                 </div>
             </div>
             <div class="row">
                 <div class="services-item services-item-blue col-md-4 text-center py-5">
-                    <a target="" href="services.html">
-                        <i class="fa fa-tv" aria-hidden="true"></i>
+                    <a href="services.html">
+                        <i class="fa fa-paper-plane home-icons" aria-hidden="true"></i>
                         <h3>Email Marketing</h3>
                     </a>
                 </div>
                 <div class="services-item services-item-yellow col-md-4 text-center py-5">
-                    <a target="" href="services.html">
-                        <i class="fa fa-tv" aria-hidden="true"></i>
+                    <a href="services.html">
+                        <i class="fa fa-users home-icons" aria-hidden="true"></i>
                         <h3>Social Media Marketing</h3>
                     </a>
                 </div>
                 <div class="services-item services-item-pink col-md-4 text-center py-5">
-                    <a target="" href="services.html">
-                        <i class="fa fa-tv" aria-hidden="true"></i>
+                    <a href="services.html">
+                        <i class="fa fa-comment home-icons" aria-hidden="true"></i>
                         <h3>Business Consultancy</h3>
                     </a>
                 </div>
@@ -124,27 +124,31 @@
                 <div class="col-12 col-xl-9">
                     <form class="signup-form" method="POST" action="https://formdump.codeinstitute.net/">
                         <h2>I'd love to hear about your project!<i class="fas fa-heartbeat"></i></h2>
-                        <label for="fname">First Name</label>
-                        <input class="text-input" id="fname" type="text" name="first_name" required>
-                        <label for="lname">Last Name</label>
-                        <input class="text-input" id="lname" type="text" name="last_name" required>
-                        <label for="email">Email Address</label>
-                        <input class="text-input" id="email" type="email" name="email_address" required>
-                        <label for="your-message">Your Message</label>
-                        <textarea id="your-message" name="message" rows="3" cols="50" required></textarea>
-                        <h6>Where did you hear about us?</h6>
-                        <label for="google">Google</label>
-                        <input id="google" type="radio" name="source_location" value="google" required>
-                        <label for="personal-rec">Personal Recommendation</label>
-                        <input id="personal-rec" type="radio" name="source_location" value="personal-rec">
-                        <label for="social">Social Media</label>
-                        <input id="social" type="radio" name="source_location" value="social">
-                        <label for="other">Other</label>
-                        <input id="other" type="radio" name="source_location" value="other">
-                        <input class="btn btn--yellow" type="submit" value="Let's Create!">
+                        <fieldset>
+                            <label for="fname">First Name</label>
+                            <input class="text-input" id="fname" type="text" name="first_name" required>
+                            <label for="lname">Last Name</label>
+                            <input class="text-input" id="lname" type="text" name="last_name" required>
+                            <label for="email">Email Address</label>
+                            <input class="text-input" id="email" type="email" name="email_address" required>
+                            <label for="your-message">Your Message</label>
+                            <textarea id="your-message" name="message" rows="3" cols="50" required></textarea>
+                        </fieldset>
+                        <h3 class="small">Where did you hear about us?</h3>
+                        <fieldset>
+                            <label for="google">Google</label>
+                            <input id="google" type="radio" name="source_location" value="google" required>
+                            <label for="personal-rec">Personal Recommendation</label>
+                            <input id="personal-rec" type="radio" name="source_location" value="personal-rec">
+                            <label for="social">Social Media</label>
+                            <input id="social" type="radio" name="source_location" value="social">
+                            <label for="other">Other</label>
+                            <input id="other" type="radio" name="source_location" value="other">
+                            <input class="btn btn--blue" type="submit" value="Let's Create!">
+                        </fieldset>
                     </form>
                 </div>
-                <div class="quotes-container col-12 col-xl-3 my-auto">
+                <div class="quotes-container col-12 col-xl-3 mb-auto mt-5">
                     <h4>What our clients say about us</h4> 
                     <blockquote class="blockquote text-muted">Chelsea Designs was so responsive and really took on board our vision for the website. She created exactly what we were looking for, was very prompt and was really open to any changes we wanted to make afterwards. I would definitely recommend to anyone looking for a great value high quality website.</blockquote>
                     <blockquote class="blockquote-footer">Bethan Taylor</blockquote>
@@ -155,7 +159,7 @@
     <footer>
         <div class="row">
             <div class="col-md-2 d-none d-md-block mx-auto">
-                <img id= "footer-logo" src="assets/images/logo.png" alt="logo">
+                <a href="#"><img id= "footer-logo" src="assets/images/logo.png" alt="Chelsea Designs Logo"></a>
             </div>
             <div class="col-8 col-md-7">
                     <h4>Chelsea Designs</h4>
@@ -163,7 +167,7 @@
                     <nav>
                         <ul class="list-inline footer-nav">
                             <li class="list-inline-item footer-nav-item">
-                                <a href="#hero-container"><i class="fa fa-arrow-up" aria-hidden="true"></i>Back to top of page</a>
+                                <a href="#hero-container"><i class="fa fa-arrow-up" aria-hidden="true"></i> Back to top of page</a>
                             </li>
 
                         </ul>
@@ -172,7 +176,7 @@
             <div class="col-4 col-md-3">
                 <div class="row">
                     <div class="col-12">
-                        <h6 class="footer-sub">Social</h6>
+                        <h5 class="footer-sub small">Social</h6>
                         <ul class="list-inline social-links">
                             <li class="list-inline-item social-links-item">
                                 <a target="_blank" href="http://facebook.com/chelseadesignsofficial">
@@ -213,7 +217,7 @@
                         </ul>
                     </div>
                     <div class="col-12">
-                        <h6 class="footer-sub">Contact</h6>
+                        <h5 class="footer-sub small">Contact</h6>
                         <ul class="list-inline social-links">
                             <li class="list-inline-item social-links-item">
                                 <a target="_blank" href="mailto:hello@chelsea-designs.com">
