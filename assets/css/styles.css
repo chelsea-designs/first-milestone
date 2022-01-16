@@ -1,6 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&family=Roboto+Slab&display=swap');
 
-/* ---------Headings */
+/* --------- Headings */
 h1,h2,h3,h4,h5,h6{
     text-transform: uppercase;
     font-family: 'Roboto Slab', serif;
@@ -21,7 +21,7 @@ p{
     margin-bottom: 15px;
 }
 
-/* ---------Footer */
+/* --------- Footer */
 footer{
     margin: 0;
     padding: 10px;
@@ -39,6 +39,7 @@ footer{
     color: #000;
     text-decoration: none;
 }
+
 .footer-nav-item a:hover{
     background-color: #fff;
     text-decoration: none;
@@ -67,7 +68,7 @@ footer{
     margin-bottom: 0px;
 }
 
-/* ---------Choose Me */
+/* --------- Choose Me */
 #circle-container {
     width: 250px;
     height: 250px;
@@ -86,7 +87,6 @@ footer{
 }
 
 /* ---------Hero Container */
-
 #hero-container{
     background: url('../images/pattern-bg.jpg') no-repeat center center;
     background-attachment: fixed;
@@ -95,7 +95,8 @@ footer{
 }
 
 /* ---------Typing */
-/* This section of code has been credited in the README.md */
+/* This code is adapted from here: https://css-tricks.com/snippets/css/typewriter-effect/
+This section of code has been credited in the README.md also.  */
 .typewriter h2 {
     text-transform: none;
     overflow: hidden; 
@@ -128,6 +129,15 @@ footer{
     padding: 0px 10px;
     height: 150px;
     z-index: 1;
+}
+@media only screen and (max-width: 600px) {
+    #navbarNavDropdown {
+        background-color: #000;
+        border-radius: 5px;
+        border: solid 1px #e9b02f;
+        color:#fff;
+        padding: 5px;
+    }
 }
 
 .navbar .navbar-toggler {
@@ -176,7 +186,6 @@ footer{
 }
 
 /* ---------Services  */
-
 .services-item-yellow{
     background-color: #e9b02f;}
 
@@ -195,16 +204,15 @@ footer{
 }
 
 .services{
-        background: url("../images/pattern-bg.jpg") no-repeat center center;
-        background-attachment: fixed;
+    background: url("../images/pattern-bg.jpg") no-repeat center center;
+    background-attachment: fixed;
 }
 
 i.home-icons{
     font-size: x-large;
 }
 
-/* ---------Form  */
-
+/* --------- Form  */
 .contact {
     clear: left;
     background: url("../images/shapes-bg.jpg");
@@ -253,7 +261,6 @@ i.home-icons{
 }
 
 /* ---------Quotes  */
-
 .blockquote{
     font-size:small;
 }
@@ -263,9 +270,9 @@ i.home-icons{
     border-radius: 5px;
 }
 
-/* ---------Portfolio */
-/* This section of code has been credited in the README.md */
-
+/* --------- Logo Portfolio */
+/* This code was adapted from this post: https://medium.com/swlh/3-easy-css-only-masonry-layouts-acfb64364ad6
+This section of code has been credited in the README.md also.*/
 #photos-section{
     background: #000;
 }
@@ -279,31 +286,31 @@ i.home-icons{
     gap: 0.5em;
     grid-template-columns: repeat(auto-fit, minmax(10em, 1fr));
     grid-auto-flow: dense;
-  }
+}
   
 #photos div {
     border-radius: 10px;
     background-size: cover;
     background-position: center;
     padding-top: 100%;
-  }
+}
   
 #photos div:nth-child(4n) {
     grid-column: span 2;
     grid-row: span 2;
-  }
+}
 
 #photos div:nth-child(16n) {
     grid-column: span 1;
     grid-row: span 1;
-  }
+}
 
 #photos div:nth-child(20n) {
     grid-column: span 1;
     grid-row: span 1;
-  }
+}
 
-
+/* --------- Web Portfolio */
 #web-portfolio h2{
     color: #000;
 } 

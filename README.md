@@ -2,9 +2,9 @@
 
 [View the live project here.](https://chelsea-designs.github.io/first-milestone/)
 
-This is the main marketing website for Chelsea Designs. It is designed to be responsive and accessible on a range of devices, making it easy to navigate for potential clients.
+This is the main marketing website for Chelsea Designs. Chelsea Designs is a web and graphics design company targetting small businesses, creative businesses and charities. It is designed to be responsive and accessible on a range of devices, making it easy to navigate for potential clients.
 
-<h2 align="center"><img src="assets/images/preview-web.png"></h2>
+![Website mockup on desktop, tablet and mobile](assets/images/preview-web.png "Website Mockup")
 
 ## User Experience (UX)
 
@@ -12,21 +12,14 @@ This is the main marketing website for Chelsea Designs. It is designed to be res
 
     -   #### First Time Visitor Goals
 
-        1. As a First Time Visitor, I want to easily understand the main purpose of the site and learn more about the organisation.
-        2. As a First Time Visitor, I want to be able to easily navigate throughout the site to find information about their services.
-        3. As a First Time Visitor, I want to look for previous work to see their quality of work.
-        4. As a First Time Visitor, I want to understand what their users think of them and see if they are trusted. I also want to locate their social media links to see their followings on social media to determine how trusted and known they are.
+        1. As a First Time Visitor, I want to easily understand the main services of the website and learn more about the business.
+        2. As a First Time Visitor, I want to be able to easily be able to navigate throughout the site to find content.
+        3. As a First Time Visitor, I want to establish trust with the brand.
 
     -   #### Returning Visitor Goals
 
-        1. As a Returning Visitor, I want to find information about coding challenges.
-        2. As a Returning Visitor, I want to find the best way to get in contact with the organisation with any questions I may have.
-        3. As a Returning Visitor, I want to find community links.
-
-    -   #### Frequent User Goals
-        1. As a Frequent User, I want to check to see if there are any newly added challenges or hackathons.
-        2. As a Frequent User, I want to check to see if there are any new blog posts.
-        3. As a Frequent User, I want to sign up to the Newsletter so that I am emailed any major updates and/or changes to the website or organisation.
+        1. As a Returning Visitor, I want to look for previous work to see their quality of work.
+        2. As a Returning Visitor, I want to find the best way to get in contact with the business with any questions I may have.
 
 -   ### Design
     -   #### Colour Scheme
@@ -36,13 +29,17 @@ This is the main marketing website for Chelsea Designs. It is designed to be res
     -   #### Imagery
         -   Imagery is important. The large, background hero image is designed to be striking and catch the user's attention. It also has a vibrant, geometric, energetic aesthetic. Imagery shouldn't be clinical/sterile as the target audience is small business and charities rather than big corporations.
 
-*   ### Wireframes
+### Wireframes
 
-    -   Home Page Wireframe - [View](https://github.com/)
+Wireframes for mobile, tablet and desktop have been made for all page:
 
-    -   Mobile Wireframe - [View](https://github.com/)
+-   Home Page Wireframe - [View](https://share.balsamiq.com/c/4qkFdcdVk9MTgrF18pRK3g.png)
 
-    -   Contact Us Page Wireframe - [View](https://github.com/)
+-   Portfolio Page Wireframe - [View](https://share.balsamiq.com/c/2uUgy7BGFEdsLKdJduzgLu.png)
+
+-   Services Page Wireframe - [View](https://share.balsamiq.com/c/pVMj9GmJ1GNx5ipv3rgTip.png)
+
+-   Contact Us Page Wireframe - [View](https://share.balsamiq.com/c/th9Gw9SCheMVvAViKWSTx3.png)
 
 ## Features
 
@@ -50,7 +47,7 @@ This is the main marketing website for Chelsea Designs. It is designed to be res
 
 -   Responsive - on all device sizes
 
--   Interactive elements - accordians, dropdown menus and contact forms.
+-   Interactive elements - accordians (faqs), dropdown menus, buttons, and contact forms.
 
 -   Back to top link - this helps to improve navigation and user experience.
 
@@ -65,11 +62,14 @@ This is the main marketing website for Chelsea Designs. It is designed to be res
 
 -   Tweak logo portfolio to have a tidier end regardless of how many images are included in the portfolio, I would do this using Javascript. This would mean I could continue to add more logos and maintain a clear and tidy appearance to the portfolio. 
 
--   In the future each of the services would link to their own seperate page for more in depth details of what each service includes. This was beyond the scope of this first project.
+-   In the future each of the services would link to their own seperate page (from dropdown menu) for more in depth details of what each service includes. This was beyond the scope of this first project.
 
 -   Testimonial replaced with testimonials carousel to display more than one client quote without taking too much display space.
 
 -   Make the form functional after completing the relevant modules on the Full Stack Developer Course.
+
+-   Include a blog for project write ups and business content to improve SEO.
+
 
 ## Technologies Used
 
@@ -82,8 +82,6 @@ This is the main marketing website for Chelsea Designs. It is designed to be res
 
 1. [Bootstrap 5.1.3:](https://getbootstrap.com/docs/5.1/getting-started/introduction/)
     - Bootstrap was used to assist with the responsiveness and styling of the website.
-1. [Hover.css:](https://ianlunn.github.io/Hover/)
-    - Hover.css was used on the Social Media icons in the footer to add the float transition while being hovered over.
 1. [Google Fonts:](https://fonts.google.com/)
     - Google fonts were used to import the 'Open Sans' and 'Roboto Slab' fonts into the style.css file which is used on all pages throughout the project.
 1. [Font Awesome:](https://fontawesome.com/)
@@ -101,100 +99,103 @@ This is the main marketing website for Chelsea Designs. It is designed to be res
 
 ### Manual Testing
 In order to test navigation I verified the following:
-    - Does the contact button link to the contact page? 
-    - Does the menu collapse on smaller devices?
-    - Does each link on the navbar point to the correct page?
-    - Does the dropdown menu open and link to the correct pages?
-    - Does the 'Back to top' link scroll to the top on every page?
-    - Do all buttons link to their correct locations?
+- Does the contact button link to the contact page? 
+- Does the menu collapse on smaller devices?
+- Does each link on the navbar point to the correct page?
+- Does the dropdown menu open and link to the correct pages?
+- Does the 'Back to top' link scroll to the top on every page?
+- Do all buttons link to their correct locations?
 
 In order to test the form I verified the following:
-    - Does the completed form display the Code Institute form dump?
-    - Do all form inputs display on the Code Institute form dump?
-    - Is the user prompted to complete fields with missing inputs?
+- Does the completed form display the Code Institute form dump?
+- Do all form inputs display on the Code Institute form dump?
+- Is the user prompted to complete fields with missing inputs?
 
 In order to test the external social links I verified the following:
-    - Do the social icons change colour on hover?
-    - Do the social sites open in a new tab?
-    - Do the social icons link to the correct urls when opened?
-
-
+- Do the social icons change colour on hover?
+- Do the social sites open in a new tab?
+- Do the social icons link to the correct urls when opened?
 
 ### Final Testing
 
-The W3C Markup Validator and W3C CSS Validator Services were used to validate every page of the project to ensure there were no syntax errors in the project. PowerMapper was used to double check browser compatibility. Google Lighthouse function used to test performance, accessibility and best practices.
+The W3C Markup Validator and W3C CSS Validator Services were used to validate every page of the project to ensure there were no syntax errors in the project. Google Lighthouse function used to test performance, accessibility and best practices. Contrast Grid was used to check colour scheme contrast for accessibility and clarity for users. Wave was used to check accessibility and aria-labels.
 
 -   [W3C Markup Validator](https://jigsaw.w3.org/css-validator/#validate_by_input) - [Results](https://github.com/)
 -   [W3C CSS Validator](https://jigsaw.w3.org/css-validator/#validate_by_input) - [Results](https://github.com/)
--   [PowerMapper](https://www.powermapper.com/) - [Results](https://github.com/)
 -   [Lighthouse](https://developers.google.com/web/tools/lighthouse) - [Results](https://github.com/)
+-   [Contrast Grid](https://contrast-grid.eightshapes.com/?version=1.1.0&background-colors=&foreground-colors=%23FFFFFF%2C%20White%0D%0A%23F2F2F2%0D%0A%23DDDDDD%0D%0A%23CCCCCC%0D%0A%23888888%0D%0A%23404040%2C%20Charcoal%0D%0A%23000000%2C%20Black%0D%0A%232F78C5%2C%20Effective%20on%20Extremes%0D%0A%230F60B6%2C%20Effective%20on%20Lights%0D%0A%23398EEA%2C%20Ineffective%0D%0A&es-color-form__tile-size=compact&es-color-form__show-contrast=aaa&es-color-form__show-contrast=aa&es-color-form__show-contrast=aa18&es-color-form__show-contrast=dnp) - [Results](assets/images/testing/contrast-grid.png)
+-   [Wave.Webaim.org](https://wave.webaim.org/) - [Results](https://github.com/)
+
 
 ### Testing User Stories from User Experience (UX) Section
 
 -   #### First Time Visitor Goals
 
-    1. As a First Time Visitor, I want to easily understand the main purpose of the site and learn more about the organisation.
+    1. As a First Time Visitor, I want to easily understand the main services of the website and learn more about the business.
 
-        1. Upon entering the site, users are automatically greeted with a clean and easily readable navigation bar to go to the page of their choice. Underneath there is a Hero Image with Text and a "Learn More" Call to action button.
-        2. The main points are made immediately with the hero image
-        3. The user has two options, click the call to action buttons or scroll down, both of which will lead to the same place, to learn more about the organisation.
+        1. Upon entering the site, users are automatically greeted with an eye catching hero image. The main points are made immediately with the hero image.
+        2. The lower half of the viewport displays the 'about' section which gives the user the opportunity to learn more about the business.
+        ![Homepage showing hero image and about section](assets/images/testing/hero-about.png "Hero and About")
+        3. Services overview displayed on homepage.
+        ![Homepage showing services](assets/images/testing/services-overview.png "Services Homepage")
+        4. Services outlined in dropdown navigation.
+        ![Navigation showing services](assets/images/testing/services-dropdown.png "Services Navigation")
+        5. Services detailed on serviced page.
+        ![Details showing on services page](assets/images/testing/services-details.png "Services Page")
 
     2. As a First Time Visitor, I want to be able to easily be able to navigate throughout the site to find content.
 
-        1. The site has been designed to be fluid and never to entrap the user. At the top of each page there is a clean navigation bar, each link describes what the page they will end up at clearly.
-        2. At the bottom of the first 3 pages there is a redirection call to action to ensure the user always has somewhere to go and doesn't feel trapped as they get to the bottom of the page.
-        3. On the Contact Us Page, after a form response is submitted, the page refreshes and the user is brought to the top of the page where the navigation bar is.
+        1. The site has been designed to be fluid and never to entrap the user. At the top of each page there is a clean and responsive navigation bar, each link describes what the page they will end up at clearly.
+        ![Clear nav bar](assets/images/testing/nav-bar.png "Clear nav bar")
+        2. At the bottom of all pages there is a contact form so that the user has something to do.
+        ![Contact form at bottom of page](assets/images/testing/contact-form.png "Contact Form")
+        3. Alternatively, the user can press the Back to Top link in the footer to return to the top of the page.
+        ![Back to top link in footer](assets/images/testing/back-to-top.png "Back to Top link")
 
-    3. As a First Time Visitor, I want to look for testimonials to understand what their users think of them and see if they are trusted. I also want to locate their social media links to see their following on social media to determine how trusted and known they are.
-        1. Once the new visitor has read the About Us and What We Do text, they will notice the Why We are Loved So Much section.
+    3. As a First Time Visitor, I want to establish trust with the brand.
+        1. Once the new visitor has read the Why choose us/About section, they will notice the portfolio button to see the high quality of previously completed work.
+        ![Portfolio CTA after About](assets/images/testing/portfolio-button.png "Portfolio Button")
         2. The user can also scroll to the bottom of any page on the site to locate social media links in the footer.
-        3. At the bottom of the Contact Us page, the user is told underneath the form, that alternatively they can contact the organisation on social media which highlights the links to them.
+        ![Social links in footer](assets/images/testing/social-links.png "Social links nav bar")
+        3. At the bottom of the every page, the user is shown next to the form, client testimonials to help establish trust.
+        ![Testimonials next to form](assets/images/testing/testimonials.png "Client Testimonials")
 
 -   #### Returning Visitor Goals
 
-    1. As a Returning Visitor, I want to find the new programming challenges or hackathons.
+    1. As a Returning Visitor, I want to look for previous work to see their quality of work.
 
-        1. These are clearly shown in the banner message.
-        2. They will be directed to a page with another hero image and call to action.
+        1. There is a portfolio button displayed straight after the about section.
+        ![Portfolio button on homepage](assets/images/testing/hero-about.png "Portfolio button on homepage")
+        2. They will be directed to a portfolio page from main nav bar.
+        ![Portfolio in nav bar](assets/images/testing/nav-bar.png "Portfolio in nav bar")
+        3. Portfolio of previous web and logo designs clearly shown.
+        ![Portfolio gallery](assets/images/testing/portfolio-gallery.png "Portfolio gallery")
 
-    2. As a Returning Visitor, I want to find the best way to get in contact with the organisation with any questions I may have.
+    2. As a Returning Visitor, I want to find the best way to get in contact with the business with any questions I may have.
 
-        1. The navigation bar clearly highlights the "Contact Us" Page.
-        2. Here they can fill out the form on the page or are told that alternatively they can message the organisation on social media.
-        3. The footer contains links to the organisations Facebook, Twitter and Instagram page as well as the organization's email.
+        1. The navigation bar clearly highlights the "Contact Us" Page in a different colour.
+        ![Clear nav bar](assets/images/testing/nav-bar.png "Clear nav bar")
+        2. Every page contacts a contact form.
+        ![Contact form at bottom of page](assets/images/testing/contact-form.png "Contact Form")
+        3. The footer contains links to the businesss social media channels as well as the business' email and phone number.
+        ![Social links in footer](assets/images/testing/social-links.png "Clear nav bar")
         4. Whichever link they click, it will be open up in a new tab to ensure the user can easily get back to the website.
-        5. The email button is set up to automatically open up your email app and autofill there email address in the "To" section.
+        ![CNew tab opens for all social media links](assets/images/testing/new-tab.png "New Tab")
+        5. The email button is set up to automatically open up your email app and autofill email address in the "To" section.
+        ![Email client opens after pressing email button](assets/images/testing/email-button.png "Email Button")
+        6. The phone button is set up to automatically open their call app and auto dial the business number.
+        ![Call client opens after pressing call button](assets/images/testing/call-button.png "Call Button")
 
-    3. As a Returning Visitor, I want to find the Facebook Group link so that I can join and interact with others in the community.
-        1. The Facebook Page can be found at the footer of every page and will open a new tab for the user and more information can be found on the Facebook page.
-        2. Alternatively, the user can scroll to the bottom of the Home page to find the Facebook Group redirect card and can easily join by clicking the "Join Now!" button which like any external link, will open in a new tab to ensure they can get back to the website easily.
-        3. If the user is on the "Our Favourites" page they will also be greeted with a call to action button to invite the user to the Facebook group. The user is incentivized as they are told there is a weekly favourite product posted in the group.
-
--   #### Frequent User Goals
-
-    1. As a Frequent User, I want to check to see if there are any newly added challenges or hackathons.
-
-        1. The user would already be comfortable with the website layout and can easily click the banner message.
-
-    2. As a Frequent User, I want to check to see if there are any new blog posts.
-
-        1. The user would already be comfortable with the website layout and can easily click the blog link
-
-    3. As a Frequent User, I want to sign up to the Newsletter so that I am emailed any major updates and/or changes to the website or organisation.
-        1. At the bottom of every page their is a footer which content is consistent throughout all pages.
-        2. To the right hand side of the footer the user can see "Subscribe to our Newsletter" and are prompted to Enter their email address.
-        3. There is a "Submit" button to the right hand side of the input field which is located close to the field and can easily be distinguished.
 
 ### Further Testing
 
--   The Website was tested on Google Chrome, Internet Explorer, Microsoft Edge and Safari browsers.
+-   The website was tested on Google Chrome, Internet Explorer, Microsoft Edge and Safari browsers.
 -   The website was viewed on a variety of devices such as Desktop, Laptop, iPhone7, iPhone 8 & iPhoneX.
 -   A large amount of testing was done to ensure that all pages were linking correctly.
 -   Friends and family members were asked to review the site and documentation to point out any bugs and/or user experience issues.
 
 ### Known Bugs
 
--   On some mobile devices the Headshot Image does not appear centered.
 -   The logo portfolio would look better if the bottom row was full and all images aligned at the bottom, this section could be improved with the use of Javascript.
 
 ## Deployment
@@ -205,57 +206,39 @@ The project was deployed to GitHub Pages using the following steps...
 
 1. Log in to GitHub and locate the [GitHub Repository](https://github.com/)
 2. At the top of the Repository (not top of page), locate the "Settings" Button on the menu.
-    - Alternatively Click [Here](https://raw.githubusercontent.com/) for a GIF demonstrating the process starting from Step 2.
-3. Scroll down the Settings page until you locate the "GitHub Pages" Section.
-4. Under "Source", click the dropdown called "None" and select "Master Branch".
+3. Scroll down the Settings page until you locate the "Pages" Section.
+4. Under "Source", click the dropdown called "None" and select "Main".
 5. The page will automatically refresh.
-6. Scroll back down through the page to locate the now published site [link](https://github.com) in the "GitHub Pages" section.
+6. At the top of the 'Pages' section, look to locate the now published site [link](https://chelsea-designs.github.io/first-milestone/).
 
 ### Forking the GitHub Repository
 
 By forking the GitHub Repository we make a copy of the original repository on our GitHub account to view and/or make changes without affecting the original repository by using the following steps...
 
-1. Log in to GitHub and locate the [GitHub Repository](https://github.com/)
+1. Log in to GitHub and locate the [GitHub Repository](https://github.com/chelsea-designs/first-milestone)
 2. At the top of the Repository (not top of page) just above the "Settings" Button on the menu, locate the "Fork" Button.
 3. You should now have a copy of the original repository in your GitHub account.
 
 ### Making a Local Clone
 
-1. Log in to GitHub and locate the [GitHub Repository](https://github.com/)
-2. Under the repository name, click "Clone or download".
+1. Log in to GitHub and locate the [GitHub Repository](https://github.com/chelsea-designs/first-milestone)
+2. Next to the green Gitpod button, to the left, locate the "Code" button and click.
 3. To clone the repository using HTTPS, under "Clone with HTTPS", copy the link.
 4. Open Git Bash
 5. Change the current working directory to the location where you want the cloned directory to be made.
 6. Type `git clone`, and then paste the URL you copied in Step 3.
-
-```
-$ git clone https://github.com/YOUR-USERNAME/YOUR-REPOSITORY
-```
-
 7. Press Enter. Your local clone will be created.
-
-```
-$ git clone https://github.com/YOUR-USERNAME/YOUR-REPOSITORY
-> Cloning into `CI-Clone`...
-> remote: Counting objects: 10, done.
-> remote: Compressing objects: 100% (8/8), done.
-> remove: Total 10 (delta 1), reused 10 (delta 1)
-> Unpacking objects: 100% (10/10), done.
-```
-
-Click [Here](https://help.github.com/en/github/creating-cloning-and-archiving-repositories/cloning-a-repository#cloning-a-repository-to-github-desktop) to retrieve pictures for some of the buttons and more detailed explanations of the above process.
 
 ## Credits
 
 ### Code
 
--   [Bootstrap4](https://getbootstrap.com/docs/5.1/getting-started/introduction/): Bootstrap Library used throughout the project mainly to make site responsive using the Bootstrap Grid System. Also, code was used from the Bootstrap Components Library for dropdown menu, buttons and accordians etc.
+-   [Bootstrap5](https://getbootstrap.com/docs/5.1/getting-started/introduction/): Bootstrap Library used throughout the project mainly to make site responsive using the Bootstrap Grid System. Also, code was used from the Bootstrap Components Library for dropdown menu, buttons and accordians etc.
 
 -   The typewriting effect code came from this website [CSS-Tricks](https://css-tricks.com/snippets/css/typewriter-effect/). I tweaked the code to suit my design aesthetic.
 
 -   The code used to create the logo portfolio came from [this post](https://medium.com/swlh/3-easy-css-only-masonry-layouts-acfb64364ad6). It was tweaked to use only square images, and to use my own imagery.
 
--   [MDN Web Docs](https://developer.mozilla.org/) : For Pattern Validation code. Code was modified to better fit my needs and to match an Irish phone number layout to ensure correct validation. Tutorial found [here](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/input/tel#Pattern_validation)
 
 ### Content
 
