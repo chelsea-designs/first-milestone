@@ -2,7 +2,7 @@
 
 [View the live project here.](https://chelsea-designs.github.io/first-milestone/)
 
-This is the main marketing website for Chelsea Designs. Chelsea Designs is a web and graphics design company targetting small businesses, creative businesses and charities. It is designed to be responsive and accessible on a range of devices, making it easy to navigate for potential clients.
+This is the main marketing website for Chelsea Designs. Chelsea Designs is a web and graphics design company targeting small businesses, creative businesses and charities. It is designed to be responsive and accessible on a range of devices, making it easy to navigate for potential clients.
 
 ![Website mockup on desktop, tablet and mobile](assets/images/preview-web.png "Website Mockup")
 
@@ -47,7 +47,7 @@ Wireframes for mobile, tablet and desktop have been made for all page:
 
 -   Responsive - on all device sizes
 
--   Interactive elements - accordians (faqs), dropdown menus, buttons, and contact forms.
+-   Interactive elements - accordions (faqs), dropdown menus, buttons, and contact forms.
 
 -   Back to top link - this helps to improve navigation and user experience.
 
@@ -62,7 +62,7 @@ Wireframes for mobile, tablet and desktop have been made for all page:
 
 -   Tweak logo portfolio to have a tidier end regardless of how many images are included in the portfolio, I would do this using Javascript. This would mean I could continue to add more logos and maintain a clear and tidy appearance to the portfolio. 
 
--   In the future each of the services would link to their own seperate page (from dropdown menu) for more in depth details of what each service includes. This was beyond the scope of this first project.
+-   In the future each of the services would link to their own separate page (from dropdown menu) for more in depth details of what each service includes. This was beyond the scope of this first project.
 
 -   Testimonial replaced with testimonials carousel to display more than one client quote without taking too much display space.
 
@@ -87,7 +87,7 @@ Wireframes for mobile, tablet and desktop have been made for all page:
 1. [Font Awesome:](https://fontawesome.com/)
     - Font Awesome was used on all pages throughout the website to add icons for aesthetic and UX purposes.
 1. [Git](https://git-scm.com/)
-    - Git was used for version control by utilizing the Gitpod terminal to commit to Git and Push to GitHub.
+    - Git was used for version control by utilising the Gitpod terminal to commit to Git and Push to GitHub.
 1. [GitHub:](https://github.com/)
     - GitHub is used to store the projects code after being pushed from Git.
 1. [Affinity Photo:](https://affinity.serif.com/en-gb/photo/#buy)
@@ -177,7 +177,7 @@ The W3C Markup Validator and W3C CSS Validator Services were used to validate ev
         ![Clear nav bar](assets/images/testing/nav-bar.png "Clear nav bar")
         2. Every page contacts a contact form.
         ![Contact form at bottom of page](assets/images/testing/contact-form.png "Contact Form")
-        3. The footer contains links to the businesss social media channels as well as the business' email and phone number.
+        3. The footer contains links to the business' social media channels as well as the business' email and phone number.
         ![Social links in footer](assets/images/testing/social-links.png "Clear nav bar")
         4. Whichever link they click, it will be open up in a new tab to ensure the user can easily get back to the website.
         ![CNew tab opens for all social media links](assets/images/testing/new-tab.png "New Tab")
@@ -233,7 +233,7 @@ By forking the GitHub Repository we make a copy of the original repository on ou
 
 ### Code
 
--   [Bootstrap5](https://getbootstrap.com/docs/5.1/getting-started/introduction/): Bootstrap Library used throughout the project mainly to make site responsive using the Bootstrap Grid System. Also, code was used from the Bootstrap Components Library for dropdown menu, buttons and accordians etc.
+-   [Bootstrap5](https://getbootstrap.com/docs/5.1/getting-started/introduction/): Bootstrap Library used throughout the project mainly to make site responsive using the Bootstrap Grid System. Also, code was used from the Bootstrap Components Library for dropdown menu, buttons and accordions etc.
 
 -   The typewriting effect code came from this website [CSS-Tricks](https://css-tricks.com/snippets/css/typewriter-effect/). I tweaked the code to suit my design aesthetic.
 

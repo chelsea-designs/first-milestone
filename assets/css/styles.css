@@ -122,7 +122,7 @@ This section of code has been credited in the README.md also.  */
 }
   
 /* ---------Nav Bar  */
-  .navbar {
+.navbar {
     margin-bottom: -150px;
     width: 100%;
     border: 0;
@@ -130,7 +130,7 @@ This section of code has been credited in the README.md also.  */
     height: 150px;
     z-index: 1;
 }
-@media only screen and (max-width: 600px) {
+@media only screen and (max-width: 575px) {
     #navbarNavDropdown {
         background-color: #000;
         border-radius: 5px;
@@ -154,6 +154,10 @@ This section of code has been credited in the README.md also.  */
 
 .cta-nav{
     margin-left: auto;
+}
+
+.navbar-dark .navbar-nav .active .nav-link {
+    color:#c05b6b;
 }
 
 /* ---------Buttons  */
