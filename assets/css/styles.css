@@ -88,8 +88,8 @@ footer{
 
 /* ---------Hero Container */
 #hero-container{
-    background: url('../images/pattern-bg.jpg') no-repeat center center;
-    background-attachment: fixed;
+    background: url('../images/pattern-bg.jpg') no-repeat center center fixed;
+    background-size: cover;
     height: 60vh;
     min-width: 300px;
 }
@@ -204,8 +204,8 @@ This section of code has been credited in the README.md also.  */
 }
 
 .services{
-    background: url("../images/pattern-bg.jpg") no-repeat center center;
-    background-attachment: fixed;
+    background: url("../images/pattern-bg.jpg") no-repeat center center fixed;
+    background-size: cover;
 }
 
 i.home-icons{
