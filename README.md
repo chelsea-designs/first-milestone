@@ -158,7 +158,7 @@ The W3C Markup Validator and W3C CSS Validator Services were used to validate ev
         2. The user can also scroll to the bottom of any page on the site to locate social media links in the footer.
         ![Social links in footer](assets/images/testing/social-links.png "Social links nav bar")
         3. At the bottom of the every page, the user is shown next to the form, client testimonials to help establish trust.
-        ![Testimonials next to form](assets/images/testing/testimonials.png "Client Testimonials")
+        ![Testimonials next to form](assets/images/testing/testimonial.png "Client Testimonials")
 
 -   #### Returning Visitor Goals
 
