@@ -157,8 +157,21 @@ This section of code has been credited in the README.md also.  */
 }
 
 .navbar-dark .navbar-nav .active .nav-link {
-    color:#c05b6b;
+    color:#419092;
+    text-shadow: 0px 0px 2px #000;
 }
+
+.navbar-dark .navbar-text,
+.navbar-dark .navbar-nav .nav-link {
+    color: #fff;
+    font-weight: bold;
+}
+
+a.dropdown-item:hover{
+    background-color: #419092;
+    color: #fff;
+}
+
 
 /* ---------Buttons  */
 .btn--blue {
