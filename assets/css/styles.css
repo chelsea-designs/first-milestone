@@ -79,7 +79,7 @@ footer{
 }
 
 #headshot__container--bg {
-    background: url('../images/headshot-square.jpeg') no-repeat center center;
+    background: url('../images/headshot-square.png') no-repeat center center;
     height: 100%;
     border-radius: 50%;
 }
