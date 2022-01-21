@@ -23,11 +23,11 @@ This is the main marketing website for Chelsea Designs. Chelsea Designs is a web
 
 -   ### Design
     -   #### Colour Scheme
-        -   The four main colours used are <span style="color:#419092">blue #419092</span>, <span style="color:#e9b02f">yellow #e9b02f</span>, <span style="color:#e24e42">red #e24e42</span> and <span style="color:#c05b6b">pink #c05b6b</span>.
+        -   The four main colours used are blue #419092, yellow #e9b02f, red #e24e42 and pink #c05b6b.
     -   #### Typography
         -   The Open Sans is the main font used throughout the whole website with Serif as the fallback font in case for any reason the font isn't being imported into the site correctly. Roboto Slab is used for headings as it pairs nicely with the Open Sans font.
     -   #### Imagery
-        -   Imagery is important. The large, background hero image is designed to be striking and catch the user's attention. It also has a vibrant, geometric, energetic aesthetic. Imagery shouldn't be clinical/sterile as the target audience is small business and charities rather than big corporations.
+        -   The right imagery is important. The large, background hero image is designed to be striking and catch the user's attention. It also has a vibrant, geometric, energetic aesthetic. Imagery shouldn't be clinical/sterile as the target audience is small business and charities rather than big corporations.
 
 ### Wireframes
 
@@ -36,8 +36,6 @@ Wireframes for mobile, tablet and desktop have been made for all page:
 -   Home Page Wireframe - [View](https://share.balsamiq.com/c/4qkFdcdVk9MTgrF18pRK3g.png)
 
 -   Portfolio Page Wireframe - [View](https://share.balsamiq.com/c/2uUgy7BGFEdsLKdJduzgLu.png)
-
--   Services Page Wireframe - [View](https://share.balsamiq.com/c/pVMj9GmJ1GNx5ipv3rgTip.png)
 
 -   Contact Us Page Wireframe - [View](https://share.balsamiq.com/c/th9Gw9SCheMVvAViKWSTx3.png)
 
@@ -63,8 +61,6 @@ Wireframes for mobile, tablet and desktop have been made for all page:
 -   Tweak logo portfolio to have a tidier end regardless of how many images are included in the portfolio, I would do this using Javascript. This would mean I could continue to add more logos and maintain a clear and tidy appearance to the portfolio. 
 
 -   In the future each of the services would link to their own separate page (from dropdown menu) for more in depth details of what each service includes. This was beyond the scope of this first project.
-
--   Testimonial replaced with testimonials carousel to display more than one client quote without taking too much display space.
 
 -   Make the form functional after completing the relevant modules on the Full Stack Developer Course.
 
@@ -191,32 +187,32 @@ The W3C Markup Validator and W3C CSS Validator Services were used to validate ev
 -   Friends and family members were asked to review the site and documentation to point out any bugs and/or user experience issues.
 
 ### Solved Bugs
-1.  Inteded outcome: A black background behind the mobile toggler menu
+1.  Income outcome: A black background behind the mobile toggler menu
     Problem: Background appears behind navbar on tablet screens.
     What I did to fix it: changed media query from max-width:600 to max-width:575.
     ![Bug menu before](assets/images/testing/bug-menu-before.png "Bug menu before")
     ![Bug menu after](assets/images/testing/bug-menu-after.png "Bug menu after")
-2.  Inteded outcome: Responsive choose me section
+2.  Income outcome: Responsive choose me section
     Problem: On smaller devices, headshot is centered while text is off to the left.
     What I did to fix it: Text div had class col-lg-10 instead of col-lg-8 and because of this was wrapping over to next line.
     ![Choose me before](assets/images/testing/button-before.png "Choose me before")
     ![Choose me after](assets/images/testing/button-after.png "Choose me after")
-3.  Inteded outcome: Mobile friendly, non-cluttered, footer.
+3.  Income outcome: Mobile friendly, non-cluttered, footer.
     Problem: Social media links list wrapped 2 icons to next line and footer looked cluttered on smaller screens.
     What I did to fix it: Opted for a column/vertical footer instead of horizontal layout.
     ![Footer before](assets/images/testing/footer-before.png "Footer before")
     ![Footer after](assets/images/testing/footer-after.png "Footer after")
-4.  Inteded outcome: Eye catching website portfolio
+4.  Income outcome: Eye catching website portfolio
     Problem: Friend who tested site for user experience skipped the portfolio as they assumed it was an ad banner.
     What I did to fix it: Added margins to website portfolio cards to break up the shape and make it look less banner sized.
     ![Portfolio no margins](assets/images/testing/portfolio-before.png "Portfolio no margins")
     ![Portfolio with margins](assets/images/testing/portfolio-after.png "Portfolio with margins")
-5.  Inteded outcome: Buttons which contrast with footer before and after hover.
+5.  Income outcome: Buttons which contrast with footer before and after hover.
     Problem: When hovering over the footer button it blends into background.
     What I did to fix it: Inverted the background, border and text colours.
     ![Button no contrast](assets/images/testing/button-before.png "Button no contrast")
     ![Button with contrast](assets/images/testing/button-after.png "Button with contrast")
-6.  Inteded outcome: Clear navigation bar
+6.  Income outcome: Clear navigation bar
     Problem: Hard to see navigation text over some background shapes
     What I did to fix it: Changed navbar font to be bright white and added small black shadow behind text to act as an outline and help to stand out against hero image.
     ![Nav bar without black shadow](assets/images/testing/with-shadow.png "Nav bar without black shadow")
