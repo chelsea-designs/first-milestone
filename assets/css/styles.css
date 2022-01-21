@@ -12,7 +12,7 @@ p{
 }
 
 /* --------- Design Elements */
-.block-divider-blue {
+.block__divider--blue {
     width: 75px;
     height: 5px;
     border: 0;
@@ -25,51 +25,49 @@ p{
 footer{
     margin: 0;
     padding: 10px;
-    height: 120px;
-    background-color: #e9b02f;
-    color: black;
+    background-color: black;
+    color: white;
 }
 
-.footer-nav-item{
+.footer__btt{
     padding: 0;
     font-family: 'Open Sans', Verdana, sans-serif;
 }
 
-.footer-nav-item a{
-    color: #000;
+.footer__btt a{
+    color: white;
     text-decoration: none;
 }
 
-.footer-nav-item a:hover{
-    background-color: #fff;
+.footer__btt a:hover{
+    background-color: #419092;
+    color: black;
     text-decoration: none;
 }
 
-#footer-logo{
-    height: 100px;
-    width: 100px;
-    position: relative; 
-    left: 50%;
-    transform: translateX(-50%);
+.footer__sm a{
+    color: white;
+    font-size: x-large;
 }
 
-.social-links{
-    margin-bottom: 0px;
+.footer__sm a:hover{
+    color:#419092;
+}
+#footer--pink{
+    background-color:#c05b6b;
 }
 
-.social-links-item a{
+#footer--pink .footer__sm a:hover{
     color: black;
 }
-.social-links-item a:hover{
-    color:#fafafa;
-}
 
-.footer-sub{
-    margin-bottom: 0px;
+#footer--pink .footer__btt a:hover{
+    background-color: black;
+    color: white;
 }
 
 /* --------- Choose Me */
-#circle-container {
+#headshot__container {
     width: 250px;
     height: 250px;
     padding: 10px;
@@ -80,14 +78,14 @@ footer{
     margin: 0 auto;
 }
 
-#circle-cover-bg {
+#headshot__container--bg {
     background: url('../images/headshot-square.jpeg') no-repeat center center;
     height: 100%;
     border-radius: 50%;
 }
 
 /* ---------Hero Container */
-#hero-container{
+#hero__container{
     background: url('../images/pattern-bg.jpg') no-repeat center center fixed;
     background-size: cover;
     height: 60vh;
@@ -95,9 +93,9 @@ footer{
 }
 
 /* ---------Typing */
-/* This code is adapted from here: https://css-tricks.com/snippets/css/typewriter-effect/
+/* This code is adapted from here: https://css-tricks.com/snippets/css/hero__typewriter-effect/
 This section of code has been credited in the README.md also.  */
-.typewriter h2 {
+.hero__typewriter h2 {
     text-transform: none;
     overflow: hidden; 
     border-right: .15em solid #419092;
@@ -131,7 +129,7 @@ This section of code has been credited in the README.md also.  */
     z-index: 1;
 }
 @media only screen and (max-width: 575px) {
-    #navbarNavDropdown {
+    #navbar__dropdown {
         background-color: #000;
         border-radius: 5px;
         border: solid 1px #e9b02f;
@@ -150,10 +148,6 @@ This section of code has been credited in the README.md also.  */
 
 .navbar-brand img{
     height: 100px;
-}
-
-.cta-nav{
-    margin-left: auto;
 }
 
 .navbar-dark .navbar-nav .active .nav-link {
@@ -202,17 +196,28 @@ a.dropdown-item:hover{
     background-color: #419092;
 }
 
+.btn--white-line {
+    background-color: transparent;
+    border-color: white;
+    color: white;
+}
+
+.btn--white-line:hover {
+    background-color: white;
+    color: #000;
+}
+
 /* ---------Services  */
-.services-item-yellow{
+.services__item--yellow{
     background-color: #e9b02f;}
 
-.services-item-pink{
+.services__item--pink{
     background-color: #c05b6b;}
 
-.services-item-blue{
+.services__item--blue{
     background-color:  #419092;}
 
-.services-item a{
+.services__item a{
     color: #000;
     text-decoration: none;}
 
@@ -225,19 +230,19 @@ a.dropdown-item:hover{
     background-size: cover;
 }
 
-i.home-icons{
+i.services__icons{
     font-size: x-large;
 }
 
 /* --------- Form  */
 .contact {
     clear: left;
-    background: url("../images/shapes-bg.jpg");
-    background-size: cover;
+    background: url("../images/shapes-bg.jpg") no-repeat;
+    background-size: auto 100%;
     background-position: right;
 }
 
-.signup-form{
+.contact__form{
     margin: 30px;
     color: #fff;
     background-color: rgba(0, 0, 0, 0.8);
@@ -245,9 +250,13 @@ i.home-icons{
     border-radius: 5px;
 }
 
-.signup-form h2{
+.contact__form h2{
     color: #fafafa;
     margin-bottom: 20px;
+}
+
+.contact__form h2 a i{
+    color:#419092;
 }
 
 .text-input{
@@ -264,7 +273,7 @@ i.home-icons{
     border-color: #e9b02f;
 }
 
-#your-message{
+#contact__message{
     background: transparent;
     color: #fafafa;
     width: 100%;
@@ -273,76 +282,66 @@ i.home-icons{
     border-radius: 2px;
 }
 
-#your-message:hover{
+#contact__message:hover{
     border-color: #e9b02f;
-}
-
-/* ---------Quotes  */
-.blockquote{
-    font-size:small;
-}
-
-.quotes-container{
-    background-color: rgba(255, 255, 255, 0.9);
-    border-radius: 5px;
 }
 
 /* --------- Logo Portfolio */
 /* This code was adapted from this post: https://medium.com/swlh/3-easy-css-only-masonry-layouts-acfb64364ad6
 This section of code has been credited in the README.md also.*/
-#photos-section{
+.logos{
     background: #000;
 }
 
-#photos-section h2{
+.logos h2{
     color: #fff;
 } 
 
-#photos {
+.logos__grid {
     display: grid;
     gap: 0.5em;
     grid-template-columns: repeat(auto-fit, minmax(10em, 1fr));
     grid-auto-flow: dense;
 }
   
-#photos div {
+.logos__grid div {
     border-radius: 10px;
     background-size: cover;
     background-position: center;
     padding-top: 100%;
 }
   
-#photos div:nth-child(4n) {
+.logos__grid div:nth-child(4n) {
     grid-column: span 2;
     grid-row: span 2;
 }
 
-#photos div:nth-child(16n) {
+.logos__grid div:nth-child(16n) {
     grid-column: span 1;
     grid-row: span 1;
 }
 
-#photos div:nth-child(20n) {
+.logos__grid div:nth-child(20n) {
     grid-column: span 1;
     grid-row: span 1;
 }
 
 /* --------- Web Portfolio */
-#web-portfolio h2{
+.websites h2{
     color: #000;
 } 
 
-/* --------- Services */
-.service-info{
-    border-radius: 5px;
-    border: solid 3px #e9b02f;
-    height: 35vh;
+/* --------- Testimonials */
+.testimonials__image{
+    height:150px;
+    width:150px;
+}
+.testimonials{
+    background: url("../images/shapes-bg.jpg");
+    background-size: cover;
+    background-position: right;
 }
 
-.service-info a {
-    text-decoration: none;
-}
-
-.service-info a i:hover{
-    color:black;
+.carousel-indicators{
+    filter: invert(100%);
 }

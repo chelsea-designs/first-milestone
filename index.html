@@ -1,242 +1,361 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Chelsea Designs</title>
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
-    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.10/css/all.css" integrity="sha384-+d0P83n9kaQMCwj8F4RJB66tzIwOKmrdb46+porD/OvrJ+37WqIM7UoBtwHO6Nlg" crossorigin="anonymous">
-    <link rel="stylesheet" href="assets/css/styles.css" type="text/css">
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Chelsea Designs</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.10/css/all.css"
+    integrity="sha384-+d0P83n9kaQMCwj8F4RJB66tzIwOKmrdb46+porD/OvrJ+37WqIM7UoBtwHO6Nlg" crossorigin="anonymous">
+  <link rel="stylesheet" href="assets/css/styles.css" type="text/css">
 </head>
+
 <body>
-    <header>
-        <nav class="navbar navbar-dark navbar-expand-sm">
-            <div class="container-fluid">
-                <a href="index.html" class="navbar-brand d-none d-sm-block"><img src="assets/images/logo.png" alt="Chelsea Designs Logo"></a>
-                <button class="navbar-toggler ml-auto" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
-                    <span class="navbar-toggler-icon"></span>
-                </button>
+  <header>
+    <!--Navigation Menu-->
+    <nav class="navbar navbar-dark navbar-expand-sm">
+      <div class="container-fluid">
+        <a href="index.html" class="navbar-brand d-none d-sm-block"><img src="assets/images/logo.png"
+            alt="Chelsea Designs Logo"></a>
+        <button class="navbar-toggler ml-auto" type="button" data-bs-toggle="collapse"
+          data-bs-target="#navbar__dropdown" aria-controls="navbar__dropdown" aria-expanded="false"
+          aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
 
-                <div class="collapse navbar-collapse" id="navbarNavDropdown">
-                    <ul class="navbar-nav">
-                        <li class="active nav-item mr-2"><a class="nav-link" aria-current="page" href="index.html">Home</a></li>
-                        <li class="nav-item mr-2"><a class="nav-link" href="portfolio.html">Portfolio</a></li>
-                        <li class="nav-item dropdown"><a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button" data-bs-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Services</a>
-                            <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
-                                <a class="dropdown-item" href="services.html">Web Design</a>
-                                <a class="dropdown-item" href="services.html">Logo & Graphics Design</a>
-                                <a class="dropdown-item" href="services.html">Print Design</a>
-                                <a class="dropdown-item" href="services.html">Email Marketing</a>
-                                <a class="dropdown-item" href="services.html">Social Media Marketing</a>
-                                <a class="dropdown-item" href="services.html">Business Consultancy</a>
-                            </div>
-                        </li>
-                        <li class="nav-item mr-2 d-block d-md-none"><a class="nav-link" href="contact.html">Contact <i class="fa fa-envelope" aria-hidden="true"></i></a></li>
-                    </ul>
-                    <ul class="navbar-nav cta-nav">
-                        <li class="nav-item nav-cta d-none d-md-block">
-                            <p class="navbar-text my-auto mr-2">Lets talk about your project!</p>
-                            <a href="contact.html" class="btn btn--blue">Contact <i class="fa fa-envelope" aria-hidden="true"></i></a>
-                        </li>
-                    </ul>
-                </div>
-            </div>
-        </nav>
-        <div class="container-fluid" id="hero-container">
-            <div class="row h-100">
-                <div class="col-sm-12 my-auto">
-                    <div class="card card-block w-75 px-2 mx-auto text-center">
-                        <h1>Chelsea Designs</h1>
-                        <div class="typewriter">
-                            <h2>Websites, Logos, Graphics and More...</h2>
-                        </div>
-                        <p class="lead">Making digital accessible for small businesses and charities.</p>
-                    </div>
-                </div>
-            </div>
+        <div class="collapse navbar-collapse" id="navbar__dropdown">
+          <ul class="navbar-nav">
+            <li class="active nav-item mr-2"><a class="nav-link" aria-current="page" href="index.html">Home</a></li>
+            <li class="nav-item mr-2"><a class="nav-link" href="portfolio.html">Portfolio</a></li>
+            <li class="nav-item mr-2"><a class="nav-link" href="contact.html">Contact <i class="fa fa-envelope"
+                  aria-hidden="true"></i></a></li>
+          </ul>
         </div>
-    </header>
-    <section class="choose-me-container">
-        <div class="row container-fluid">
-            <div class="col-12 col-lg-4 mx-auto p-3">
-                <div id="circle-container">
-                    <div id="circle-cover-bg"></div>
-                </div>
+      </div>
+    </nav>
+    <!--Hero Image with Main Header-->
+    <div class="container-fluid" id="hero__container">
+      <div class="row h-100">
+        <div class="col-sm-12 my-auto">
+          <div class="card card-block w-75 px-2 mx-auto text-center">
+            <!--Main Title-->
+            <h1>Chelsea Designs</h1>
+            <!--Typewriter-->
+            <div class="hero__typewriter">
+              <h2>Websites, Logos, Graphics and More...</h2>
             </div>
-            <div class="col-sm-6 col-lg-8 my-auto p-3">
-                <h2>Why choose me?</h2>
-                <p>Deciding which web designer to choose for your project can be tough as there are hundreds to choose from but not all are in budget and of excellent quality. I'm honest friendly, experienced and affordable and would love to chat with you about your project.</p>
-                <a href="portfolio.html" class="btn btn--blue btn-lg">Portfolio</a>
-                <a href="contact.html" class="btn btn--blue btn-lg">Contact</a>
-            </div>
+            <!--Tagline-->
+            <p class="lead">Making digital accessible for small businesses and charities.</p>
+          </div>
         </div>
-    </section>
-    <section class="services container-fluid">
-        <div class="container p-5">
-            <h2 class="text-center">Our Services</h2>
-            <div class="block-divider-blue"></div>
-            <div class="row">
-                <div class="services-item services-item-pink col-md-4 text-center py-5">
-                    <a href="services.html">
-                        <i class="fa fa-tv home-icons" aria-hidden="true"></i>
-                        <h3>Web Design</h3>
-                    </a>
-                </div>
-                <div class="services-item services-item-blue col-md-4 text-center py-5">
-                    <a href="services.html">
-                        <i class="fa fa-pencil-alt home-icons" aria-hidden="true"></i>
-                        <h3>Logo & Graphics Design</h3>
-                    </a>
-                </div>
-                <div class="services-item services-item-yellow col-md-4 text-center py-5">
-                    <a href="services.html">
-                        <i class="fa fa-print home-icons" aria-hidden="true"></i>
-                        <h3>Print Design</h3>
-                    </a>
-                </div>
-            </div>
-            <div class="row">
-                <div class="services-item services-item-blue col-md-4 text-center py-5">
-                    <a href="services.html">
-                        <i class="fa fa-paper-plane home-icons" aria-hidden="true"></i>
-                        <h3>Email Marketing</h3>
-                    </a>
-                </div>
-                <div class="services-item services-item-yellow col-md-4 text-center py-5">
-                    <a href="services.html">
-                        <i class="fa fa-users home-icons" aria-hidden="true"></i>
-                        <h3>Social Media Marketing</h3>
-                    </a>
-                </div>
-                <div class="services-item services-item-pink col-md-4 text-center py-5">
-                    <a href="services.html">
-                        <i class="fa fa-comment home-icons" aria-hidden="true"></i>
-                        <h3>Business Consultancy</h3>
-                    </a>
-                </div>
-            </div>
+      </div>
+    </div>
+  </header>
+<!--Why Choose Me Section-->
+  <section class="choose-me-container p-3">
+    <div class="row container-fluid">
+      <div class="col-sm-6 col-lg-4 my-auto mx-auto">
+        <div id="headshot__container">
+          <div id="headshot__container--bg"></div>
         </div>
-    </section>
-    <section class="contact">
-        <div class="container">
-            <div class="row">
-                <div class="col-12 col-xl-9">
-                    <form class="signup-form" method="POST" action="https://formdump.codeinstitute.net/">
-                        <h2>I'd love to hear about your project!<i class="fas fa-comment"></i></h2>
-                        <fieldset>
-                            <label for="fname">First Name</label>
-                            <input class="text-input" id="fname" type="text" name="first_name" required>
-                            <label for="lname">Last Name</label>
-                            <input class="text-input" id="lname" type="text" name="last_name" required>
-                            <label for="email">Email Address</label>
-                            <input class="text-input" id="email" type="email" name="email_address" required>
-                            <label for="your-message">Your Message</label>
-                            <textarea id="your-message" name="message" rows="3" cols="50" required></textarea>
-                        </fieldset>
-                        <h3 class="small">Where did you hear about us?</h3>
-                        <fieldset>
-                            <label for="google">Google</label>
-                            <input id="google" type="radio" name="source_location" value="google" required>
-                            <label for="personal-rec">Personal Recommendation</label>
-                            <input id="personal-rec" type="radio" name="source_location" value="personal-rec">
-                            <label for="social">Social Media</label>
-                            <input id="social" type="radio" name="source_location" value="social">
-                            <label for="other">Other</label>
-                            <input id="other" type="radio" name="source_location" value="other">
-                            <input class="btn btn--blue" type="submit" value="Let's Create!">
-                        </fieldset>
-                    </form>
-                </div>
-                <div class="quotes-container col-12 col-xl-3 mb-auto mt-5">
-                    <h4>What our clients say about us</h4> 
-                    <blockquote class="blockquote text-muted">Chelsea Designs was so responsive and really took on board our vision for the website. She created exactly what we were looking for, was very prompt and was really open to any changes we wanted to make afterwards. I would definitely recommend to anyone looking for a great value high quality website.</blockquote>
-                    <blockquote class="blockquote-footer">Bethan Taylor</blockquote>
-                </div>
-            </div>
+      </div>
+      <div class="col-sm-6 col-lg-8 my-auto">
+        <h2>Why choose me?</h2>
+        <p>Deciding which web designer to choose for your project can be tough as there are hundreds to choose from but
+          not all are in budget and of excellent quality. I'm honest friendly, experienced and affordable and would love
+          to chat with you about your project.</p>
+        <a href="portfolio.html" class="btn btn--blue btn-lg">Portfolio</a>
+        <a href="contact.html" class="btn btn--blue btn-lg">Contact</a>
+      </div>
+    </div>
+  </section>
+<!--Our Services Section-->
+  <section class="services container-fluid">
+    <div class="container p-5">
+      <h2 class="text-center">Our Services</h2>
+      <div class="block__divider--blue"></div>
+      <div class="row">
+        <div class="services__item services__item--pink col-md-4 text-center py-5">
+          <a href="services.html">
+            <i class="fa fa-tv services__icons" aria-hidden="true"></i>
+            <h3>Web Design</h3>
+          </a>
         </div>
-    </section>
-    <footer>
-        <div class="row">
-            <div class="col-md-2 d-none d-md-block mx-auto">
-                <a href="#"><img id= "footer-logo" src="assets/images/logo.png" alt="Chelsea Designs Logo"></a>
+        <div class="services__item services__item--blue col-md-4 text-center py-5">
+          <a href="services.html">
+            <i class="fa fa-pencil-alt services__icons" aria-hidden="true"></i>
+            <h3>Logo & Graphics Design</h3>
+          </a>
+        </div>
+        <div class="services__item services__item--yellow col-md-4 text-center py-5">
+          <a href="services.html">
+            <i class="fa fa-print services__icons" aria-hidden="true"></i>
+            <h3>Print Design</h3>
+          </a>
+        </div>
+      </div>
+      <div class="row">
+        <div class="services__item services__item--blue col-md-4 text-center py-5">
+          <a href="services.html">
+            <i class="fa fa-paper-plane services__icons" aria-hidden="true"></i>
+            <h3>Email Marketing</h3>
+          </a>
+        </div>
+        <div class="services__item services__item--yellow col-md-4 text-center py-5">
+          <a href="services.html">
+            <i class="fa fa-users services__icons" aria-hidden="true"></i>
+            <h3>Social Media Marketing</h3>
+          </a>
+        </div>
+        <div class="services__item services__item--pink col-md-4 text-center py-5">
+          <a href="services.html">
+            <i class="fa fa-comment services__icons" aria-hidden="true"></i>
+            <h3>Business Consultancy</h3>
+          </a>
+        </div>
+      </div>
+    </div>
+  </section>
+<!--Client Testimonials-->
+  <section class="testimonials">
+    <h2 class="text-center pt-5">Our Customers Love Us</h2>
+    <div class="block__divider--blue"></div>
+    <div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="carousel">
+      <div class="carousel-indicators">
+        <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active"
+          aria-current="true" aria-label="Slide 1"></button>
+        <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1"
+          aria-label="Slide 2"></button>
+        <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2"
+          aria-label="Slide 3"></button>
+      </div>
+      <div class="carousel-inner pb-5">
+        <div class="carousel-item active">
+          <div class="row row-cols-1 row-cols-lg-3 g-4">
+            <div class="col">
+              <div class="card h-100 mx-5">
+                <img src="assets/images/cust1.png" class="testimonials__image mx-auto p-1 p-1" alt="...">
+                <div class="card-body">
+                  <h5 class="card-title"><i class="fa fa-star"></i><i class="fa fa-star"></i><i
+                      class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star"></i></h5>
+                  <p class="card-text">Chelsea Designs was so responsive and really took on board our vision for the
+                    website. She created exactly what we were looking for, was very prompt and was really open to any
+                    changes we wanted to make afterwards. I would definitely recommend to anyone looking for a great
+                    value high quality website.</p>
+                </div>
+                <div class="card-footer">
+                  <small class="text-muted">Bethan Taylor - Liverpool</small>
+                </div>
+              </div>
             </div>
-            <div class="col-8 col-md-7">
-                    <h4>Chelsea Designs</h4>
-                    <p class="d-inline footer-tagline">Making digital accessible for small businesses and charities.</p>
-                    <nav>
-                        <ul class="list-inline footer-nav">
-                            <li class="list-inline-item footer-nav-item">
-                                <a href="#hero-container"><i class="fa fa-arrow-up" aria-hidden="true"></i> Back to top of page</a>
-                            </li>
+            <div class="col">
+              <div class="card h-100 mx-5">
+                <img src="assets/images/cust2.png" class="testimonials__image mx-auto p-1" alt="...">
+                <div class="card-body">
+                  <h5 class="card-title"><i class="fa fa-star"></i><i class="fa fa-star"></i><i
+                      class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star"></i></h5>
+                  <p class="card-text">Chelsea Designs was so responsive and really took on board our vision for the
+                    website. She created exactly what we were looking for, was very prompt and was really open to any
+                    changes we wanted to make afterwards. I would definitely recommend to anyone looking for a great
+                    value high quality website.</p>
+                </div>
+                <div class="card-footer">
+                  <small class="text-muted">Tom Williams - Conwy</small>
+                </div>
+              </div>
+            </div>
+            <div class="col d-none d-lg-inline">
+              <div class="card h-100 mx-5">
+                <img src="assets/images/cust3.png" class="testimonials__image mx-auto p-1" alt="...">
+                <div class="card-body">
+                  <h5 class="card-title"><i class="fa fa-star"></i><i class="fa fa-star"></i><i
+                      class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star"></i></h5>
+                  <p class="card-text">Chelsea Designs was so responsive and really took on board our vision for the
+                    website. She created exactly what we were looking for, was very prompt and was really open to any
+                    changes we wanted to make afterwards. I would definitely recommend to anyone looking for a great
+                    value high quality website.</p>
+                </div>
+                <div class="card-footer">
+                  <small class="text-muted">Lizzie G - Exeter</small>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="carousel-item">
+          <div class="row row-cols-1 row-cols-lg-3 g-4">
+            <div class="col">
+              <div class="card h-100 mx-5">
+                <img src="assets/images/cust4.png" class="testimonials__image mx-auto p-1" alt="...">
+                <div class="card-body">
+                  <h5 class="card-title"><i class="fa fa-star"></i><i class="fa fa-star"></i><i
+                      class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star"></i></h5>
+                  <p class="card-text">Chelsea Designs was so responsive and really took on board our vision for the
+                    website. She created exactly what we were looking for, was very prompt and was really open to any
+                    changes we wanted to make afterwards. I would definitely recommend to anyone looking for a great
+                    value high quality website.</p>
+                </div>
+                <div class="card-footer">
+                  <small class="text-muted">Bethan Taylor - Liverpool</small>
+                </div>
+              </div>
+            </div>
+            <div class="col">
+              <div class="card h-100 mx-5">
+                <img src="assets/images/cust5.png" class="testimonials__image mx-auto p-1" alt="...">
+                <div class="card-body">
+                  <h5 class="card-title"><i class="fa fa-star"></i><i class="fa fa-star"></i><i
+                      class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star"></i></h5>
+                  <p class="card-text">Chelsea Designs was so responsive and really took on board our vision for the
+                    website. She created exactly what we were looking for, was very prompt and was really open to any
+                    changes we wanted to make afterwards. I would definitely recommend to anyone looking for a great
+                    value high quality website.</p>
+                </div>
+                <div class="card-footer">
+                  <small class="text-muted">Tom Williams - Conwy</small>
+                </div>
+              </div>
+            </div>
+            <div class="col d-none d-lg-inline">
+              <div class="card h-100 mx-5">
+                <img src="assets/images/cust6.png" class="testimonials__image mx-auto p-1" alt="...">
+                <div class="card-body">
+                  <h5 class="card-title"><i class="fa fa-star"></i><i class="fa fa-star"></i><i
+                      class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star"></i></h5>
+                  <p class="card-text">Chelsea Designs was so responsive and really took on board our vision for the
+                    website. She created exactly what we were looking for, was very prompt and was really open to any
+                    changes we wanted to make afterwards. I would definitely recommend to anyone looking for a great
+                    value high quality website.</p>
+                </div>
+                <div class="card-footer">
+                  <small class="text-muted">Lizzie G - Exeter</small>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="carousel-item">
+          <div class="row row-cols-1 row-cols-lg-3 g-4">
+            <div class="col">
+              <div class="card h-100 mx-5">
+                <img src="assets/images/cust7.png" class="testimonials__image mx-auto p-1" alt="...">
+                <div class="card-body">
+                  <h5 class="card-title"><i class="fa fa-star"></i><i class="fa fa-star"></i><i
+                      class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star"></i></h5>
+                  <p class="card-text">Chelsea Designs was so responsive and really took on board our vision for the
+                    website. She created exactly what we were looking for, was very prompt and was really open to any
+                    changes we wanted to make afterwards. I would definitely recommend to anyone looking for a great
+                    value high quality website.</p>
+                </div>
+                <div class="card-footer">
+                  <small class="text-muted">Mared Jones - Newbury</small>
+                </div>
+              </div>
+            </div>
+            <div class="col">
+              <div class="card h-100 mx-5">
+                <img src="assets/images/cust8.png" class="testimonials__image mx-auto p-1" alt="...">
+                <div class="card-body">
+                  <h5 class="card-title"><i class="fa fa-star"></i><i class="fa fa-star"></i><i
+                      class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star"></i></h5>
+                  <p class="card-text">Chelsea Designs was so responsive and really took on board our vision for the
+                    website. She created exactly what we were looking for, was very prompt and was really open to any
+                    changes we wanted to make afterwards. I would definitely recommend to anyone looking for a great
+                    value high quality website.</p>
+                </div>
+                <div class="card-footer">
+                  <small class="text-muted">Sam Smith - Cardiff</small>
+                </div>
+              </div>
+            </div>
+            <div class="col d-none d-lg-inline">
+              <div class="card h-100 mx-5">
+                <img src="assets/images/cust9.png" class="testimonials__image mx-auto p-1" alt="...">
+                <div class="card-body">
+                  <h5 class="card-title"><i class="fa fa-star"></i><i class="fa fa-star"></i><i
+                      class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star"></i></h5>
+                  <p class="card-text">Chelsea Designs was so responsive and really took on board our vision for the
+                    website. She created exactly what we were looking for, was very prompt and was really open to any
+                    changes we wanted to make afterwards. I would definitely recommend to anyone looking for a great
+                    value high quality website.</p>
+                </div>
+                <div class="card-footer">
+                  <small class="text-muted">Tom Williams - Conwy</small>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
 
-                        </ul>
-                    </nav>
-            </div>
-            <div class="col-4 col-md-3">
-                <div class="row">
-                    <div class="col-12">
-                        <h5 class="footer-sub small">Social</h5>
-                        <ul class="list-inline social-links">
-                            <li class="list-inline-item social-links-item">
-                                <a target="_blank" href="http://facebook.com/chelseadesignsofficial">
-                                    <i class="fab fa-facebook" aria-hidden="true"></i>
-                                    <span class="sr-only">Facebook</span>
-                                </a>
-                            </li>
-                            <li class="list-inline-item social-links-item">
-                                <a target="_blank" href="http://twitter.com/chelseadesigns_">
-                                    <i class="fab fa-twitter" aria-hidden="true"></i>
-                                    <span class="sr-only">Twitter</span>
-                                </a>
-                            </li>
-                            <li class="list-inline-item social-links-item">
-                                <a target="_blank" href="https://www.linkedin.com/company/chelsea-designs/">
-                                    <i class="fab fa-linkedin" aria-hidden="true"></i>
-                                    <span class="sr-only">LinkedIn</span>
-                                </a>
-                            </li>
-                            <li class="list-inline-item social-links-item">
-                                <a target="_blank" href="https://www.pinterest.co.uk/">
-                                    <i class="fab fa-pinterest" aria-hidden="true"></i>
-                                    <span class="sr-only">Pinterest</span>
-                                </a>
-                            </li>
-                            <li class="list-inline-item social-links-item">
-                                <a target="_blank" href="https://www.instagram.com/chelsea.designs_/">
-                                    <i class="fab fa-instagram" aria-hidden="true"></i>
-                                    <span class="sr-only">Instagram</span>
-                                </a>
-                            </li>
-                            <li class="list-inline-item social-links-item">
-                                <a target="_blank" href="https://www.youtube.com/">
-                                    <i class="fab fa-youtube" aria-hidden="true"></i>
-                                    <span class="sr-only">YouTube</span>
-                                </a>
-                            </li>
-                        </ul>
-                    </div>
-                    <div class="col-12">
-                        <h5 class="footer-sub small">Contact</h5>
-                        <ul class="list-inline social-links">
-                            <li class="list-inline-item social-links-item">
-                                <a target="_blank" href="mailto:hello@chelsea-designs.com">
-                                    <i class="fa fa-envelope" aria-hidden="true"></i>
-                                    <span class="sr-only">Email</span>
-                                </a>
-                            </li>
-                            <li class="list-inline-item social-links-item">
-                                <a target="_blank" href="tel:07070707070">
-                                    <i class="fa fa-phone" aria-hidden="true"></i>
-                                    <span class="sr-only">Phone</span>
-                                </a>
-                            </li>
-                        </ul>
-                    </div>
-                </div>
-            </div>
+  </section>
+<!--Footer-->
+  <footer>
+    <div class="container">
+      <div class="row">
+        <!--Back to Top Button-->
+        <div class="col-12 col-md-3 footer__btt my-auto text-center text-md-left">
+          <a href="#hero__container" class="float-md-start my-2"><i class="fa fa-arrow-up" aria-hidden="true"></i> Back
+            to top of page</a>
         </div>
-    </footer>
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
+        <!--Social Media Links-->
+        <div class="col-12 col-md-6 text-center my-auto">
+          <div class="row">
+            <ul class="list-inline social-links my-2">
+              <li class="list-inline-item footer__sm">
+                <a target="_blank" href="http://facebook.com/chelseadesignsofficial">
+                  <i class="fab fa-facebook" aria-hidden="true"></i>
+                  <span class="sr-only">Facebook</span>
+                </a>
+              </li>
+              <li class="list-inline-item footer__sm">
+                <a target="_blank" href="http://twitter.com/chelseadesigns_">
+                  <i class="fab fa-twitter" aria-hidden="true"></i>
+                  <span class="sr-only">Twitter</span>
+                </a>
+              </li>
+              <li class="list-inline-item footer__sm">
+                <a target="_blank" href="https://www.linkedin.com/company/chelsea-designs/">
+                  <i class="fab fa-linkedin" aria-hidden="true"></i>
+                  <span class="sr-only">LinkedIn</span>
+                </a>
+              </li>
+              <li class="list-inline-item footer__sm">
+                <a target="_blank" href="https://www.pinterest.co.uk/">
+                  <i class="fab fa-pinterest" aria-hidden="true"></i>
+                  <span class="sr-only">Pinterest</span>
+                </a>
+              </li>
+              <li class="list-inline-item footer__sm">
+                <a target="_blank" href="https://www.instagram.com/chelsea.designs_/">
+                  <i class="fab fa-instagram" aria-hidden="true"></i>
+                  <span class="sr-only">Instagram</span>
+                </a>
+              </li>
+              <li class="list-inline-item footer__sm">
+                <a target="_blank" href="https://www.youtube.com/">
+                  <i class="fab fa-youtube" aria-hidden="true"></i>
+                  <span class="sr-only">YouTube</span>
+                </a>
+              </li>
+            </ul>
+          </div>
+        </div>
+        <!--Contact Button-->
+        <div class="col-12 col-md-3 my-auto text-center text-md-right">
+          <a href="contact.html" class="btn btn--white-line float-md-end my-2">Contact <i class="fa fa-arrow-right"
+              aria-hidden="true"></i></a>
+        </div>
+      </div>
+    </div>
+  </footer>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous">
+  </script>
 </body>
+
 </html>

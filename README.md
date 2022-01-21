@@ -99,10 +99,9 @@ Wireframes for mobile, tablet and desktop have been made for all page:
 
 ### Manual Testing
 In order to test navigation I verified the following:
-- Does the contact button link to the contact page? 
+- Does the footer button link to the correct page? 
 - Does the menu collapse on smaller devices?
 - Does each link on the navbar point to the correct page?
-- Does the dropdown menu open and link to the correct pages?
 - Does the 'Back to top' link scroll to the top on every page?
 - Do all buttons link to their correct locations?
 
@@ -131,24 +130,20 @@ The W3C Markup Validator and W3C CSS Validator Services were used to validate ev
 
 -   #### First Time Visitor Goals
 
-    1. As a First Time Visitor, I want to easily understand the main services of the website and learn more about the business.
+    1. As a First Time Visitor, I want to easily understand the main services of the business and learn more about the business.
 
-        1. Upon entering the site, users are automatically greeted with an eye catching hero image. The main points are made immediately with the hero image.
+        1. Upon entering the site, users are automatically greeted with an eye catching hero image. The main points are made immediately with the hero image text.
         2. The lower half of the viewport displays the 'about' section which gives the user the opportunity to learn more about the business.
         ![Homepage showing hero image and about section](assets/images/testing/hero-about.png "Hero and About")
         3. Services overview displayed on homepage.
         ![Homepage showing services](assets/images/testing/services-overview.png "Services Homepage")
-        4. Services outlined in dropdown navigation.
-        ![Navigation showing services](assets/images/testing/services-dropdown.png "Services Navigation")
-        5. Services detailed on serviced page.
-        ![Details showing on services page](assets/images/testing/services-details.png "Services Page")
 
     2. As a First Time Visitor, I want to be able to easily be able to navigate throughout the site to find content.
 
-        1. The site has been designed to be fluid and never to entrap the user. At the top of each page there is a clean and responsive navigation bar, each link describes what the page they will end up at clearly.
+        1. The site has been designed to be fluid and never to entrap the user. At the top of each page there is a clean and responsive navigation bar, each link describes what page they will end up at clearly.
         ![Clear nav bar](assets/images/testing/nav-bar.png "Clear nav bar")
-        2. At the bottom of all pages there is a contact form so that the user has something to do.
-        ![Contact form at bottom of page](assets/images/testing/contact-form.png "Contact Form")
+        2. At the bottom of all pages there is a button in the footer so that the user has something to do/another page to visit.
+        ![Button in footer](assets/images/testing/footer.png "Footer button")
         3. Alternatively, the user can press the Back to Top link in the footer to return to the top of the page.
         ![Back to top link in footer](assets/images/testing/back-to-top.png "Back to Top link")
 
@@ -156,9 +151,9 @@ The W3C Markup Validator and W3C CSS Validator Services were used to validate ev
         1. Once the new visitor has read the Why choose us/About section, they will notice the portfolio button to see the high quality of previously completed work.
         ![Portfolio CTA after About](assets/images/testing/portfolio-button.png "Portfolio Button")
         2. The user can also scroll to the bottom of any page on the site to locate social media links in the footer.
-        ![Social links in footer](assets/images/testing/social-links.png "Social links nav bar")
-        3. At the bottom of the every page, the user is shown next to the form, client testimonials to help establish trust.
-        ![Testimonials next to form](assets/images/testing/testimonial.png "Client Testimonials")
+        ![Social Media icons in footer](assets/images/testing/footer.png "Social icons")
+        3. At the bottom of the home page, the user is shown a carousel of client testimonials to help establish trust.
+        ![Testimonials on homepage](assets/images/testing/testimonials.png "Client Testimonials")
 
 -   #### Returning Visitor Goals
 
@@ -173,30 +168,55 @@ The W3C Markup Validator and W3C CSS Validator Services were used to validate ev
 
     2. As a Returning Visitor, I want to find the best way to get in contact with the business with any questions I may have.
 
-        1. The navigation bar clearly highlights the "Contact Us" Page in a different colour.
+        1. The navigation bar clearly highlights the "Contact" page with an icon next to it to help it to stand out.
         ![Clear nav bar](assets/images/testing/nav-bar.png "Clear nav bar")
-        2. Every page contacts a contact form.
-        ![Contact form at bottom of page](assets/images/testing/contact-form.png "Contact Form")
+        2. Every page has a contact button in footer.
+        ![Contact button in footer](assets/images/testing/footer.png "Contact Form")
         3. The footer contains links to the business' social media channels as well as the business' email and phone number.
-        ![Social links in footer](assets/images/testing/social-links.png "Clear nav bar")
+        ![Social links in footer](assets/images/testing/footer.png "Clear nav bar")
         4. Whichever link they click, it will be open up in a new tab to ensure the user can easily get back to the website.
         ![CNew tab opens for all social media links](assets/images/testing/new-tab.png "New Tab")
-        5. The email button is set up to automatically open up your email app and autofill email address in the "To" section.
+        5. Easy to use, clear contact form on the contact page.
+        ![Contact form](assets/images/testing/contact-form.png "Contact form")
+        6. The email button is set up to automatically open up your email app and autofill email address in the "To" section.
         ![Email client opens after pressing email button](assets/images/testing/email-button.png "Email Button")
-        6. The phone button is set up to automatically open their call app and auto dial the business number.
+        7. The phone button is set up to automatically open their call app and auto dial the business number.
         ![Call client opens after pressing call button](assets/images/testing/call-button.png "Call Button")
 
 
 ### Further Testing
 
 -   The website was tested on Google Chrome, Internet Explorer, Microsoft Edge and Safari browsers.
--   The website was viewed on a variety of devices such as Desktop, Laptop, iPhone7, iPhone 8 & iPhoneX.
--   A large amount of testing was done to ensure that all pages were linking correctly.
+-   The website was viewed on a variety of devices such as MacBook, Android Redmi Note 9 Pro, iPhoneSE & iPhone11.
 -   Friends and family members were asked to review the site and documentation to point out any bugs and/or user experience issues.
+
+### Solved Bugs
+1.  Inteded outcome: A black background behind the mobile toggler menu
+    Problem: Background appears behind navbar on tablet screens.
+    What I did to fix it: changed media query from max-width:600 to max-width:575.
+    ![Bug menu before](assets/images/testing/bug-menu-before.png "Bug menu before")
+    ![Bug menu after](assets/images/testing/bug-menu-after.png "Bug menu after")
+2.  Inteded outcome: Responsive choose me section
+    Problem: On smaller devices, headshot is centered while text is off to the left.
+    What I did to fix it: Text div had class col-lg-10 instead of col-lg-8 and because of this was wrapping over to next line.
+3.  Inteded outcome: Mobile friendly, non-cluttered, footer.
+    Problem: Social media links list wrapped 2 icons to next line and footer looked cluttered on smaller screens.
+    What I did to fix it: Opted for a column/vertical footer instead of horizontal layout.
+4.  Inteded outcome: Eye catching website portfolio
+    Problem: Friend who tested site for user experience skipped the portfolio as they assumed it was an ad banner.
+    What I did to fix it: Added margins to website portfolio cards to break up the shape and make it look less banner sized.
+5.  Inteded outcome: Buttons which contrast with footer before and after hover.
+    Problem: When hovering over the footer button it blends into background.
+    What I did to fix it: Inverted the background, border and text colours.
+6.  Inteded outcome: Clear navigation bar
+    Problem: Hard to see navigation text over some background shapes
+    What I did to fix it: Changed navbar font to be bright white and added small black shadow behind text to act as an outline and help to stand out against hero image.
+
 
 ### Known Bugs
 
 -   The logo portfolio would look better if the bottom row was full and all images aligned at the bottom, this section could be improved with the use of Javascript.
+-   Fixed backgrounds are not yet compatible with iOS devices so appear enlarged and pixelated.
 
 ## Deployment
 
@@ -248,7 +268,9 @@ By forking the GitHub Repository we make a copy of the original repository on ou
 
 -   Images displaying website design across devices generated by [AmIResponsive](http://ami.responsivedesign.is/)
 
--   All images were created by myself.
+-   Images for client testimonials used with permission from individuals.
+
+-   All graphics were created by myself.
 
 ### Acknowledgements
 
