@@ -152,13 +152,13 @@ This section of code has been credited in the README.md also.  */
 
 .navbar-dark .navbar-nav .active .nav-link {
     color:#419092;
-    text-shadow: 0px 0px 2px #000;
 }
 
 .navbar-dark .navbar-text,
 .navbar-dark .navbar-nav .nav-link {
     color: #fff;
     font-weight: bold;
+    text-shadow: 0px 0px 2px #000;
 }
 
 a.dropdown-item:hover{
@@ -209,17 +209,20 @@ a.dropdown-item:hover{
 
 /* ---------Services  */
 .services__item--yellow{
-    background-color: #e9b02f;}
+    background-color: #e9b02f;
+}
 
 .services__item--pink{
-    background-color: #c05b6b;}
+    background-color: #c05b6b;
+}
 
 .services__item--blue{
-    background-color:  #419092;}
+    background-color:  #419092;
+}
 
-.services__item a{
+.services__item h3{
     color: #000;
-    text-decoration: none;}
+}
 
 .services h2{
     color:#fff;
@@ -232,6 +235,7 @@ a.dropdown-item:hover{
 
 i.services__icons{
     font-size: x-large;
+    color:#000;
 }
 
 /* --------- Form  */

@@ -199,18 +199,28 @@ The W3C Markup Validator and W3C CSS Validator Services were used to validate ev
 2.  Inteded outcome: Responsive choose me section
     Problem: On smaller devices, headshot is centered while text is off to the left.
     What I did to fix it: Text div had class col-lg-10 instead of col-lg-8 and because of this was wrapping over to next line.
+    ![Choose me before](assets/images/testing/button-before.png "Choose me before")
+    ![Choose me after](assets/images/testing/button-after.png "Choose me after")
 3.  Inteded outcome: Mobile friendly, non-cluttered, footer.
     Problem: Social media links list wrapped 2 icons to next line and footer looked cluttered on smaller screens.
     What I did to fix it: Opted for a column/vertical footer instead of horizontal layout.
+    ![Footer before](assets/images/testing/footer-before.png "Footer before")
+    ![Footer after](assets/images/testing/footer-after.png "Footer after")
 4.  Inteded outcome: Eye catching website portfolio
     Problem: Friend who tested site for user experience skipped the portfolio as they assumed it was an ad banner.
     What I did to fix it: Added margins to website portfolio cards to break up the shape and make it look less banner sized.
+    ![Portfolio no margins](assets/images/testing/portfolio-before.png "Portfolio no margins")
+    ![Portfolio with margins](assets/images/testing/portfolio-after.png "Portfolio with margins")
 5.  Inteded outcome: Buttons which contrast with footer before and after hover.
     Problem: When hovering over the footer button it blends into background.
     What I did to fix it: Inverted the background, border and text colours.
+    ![Button no contrast](assets/images/testing/button-before.png "Button no contrast")
+    ![Button with contrast](assets/images/testing/button-after.png "Button with contrast")
 6.  Inteded outcome: Clear navigation bar
     Problem: Hard to see navigation text over some background shapes
     What I did to fix it: Changed navbar font to be bright white and added small black shadow behind text to act as an outline and help to stand out against hero image.
+    ![Nav bar without black shadow](assets/images/testing/with-shadow.png "Nav bar without black shadow")
+    ![Nav bar with black shadow](assets/images/testing/with-shadow.png "Nav bar with black shadow")
 
 
 ### Known Bugs
